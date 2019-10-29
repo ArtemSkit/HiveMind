@@ -1,0 +1,101 @@
+courseid,coursename,credits,courselevel
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,Core FTP,3,GR
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,IBM Websphere Commerce,1,GR
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,Switches,2,GR
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,Professional Liability,2,GR
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,Wedding Photography,2,GR
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,LS-DYNA,3,UG
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,gPROMS,3,UG
+5d045d74-e3cb-11e9-8f78-33f15550d01b,Radio Host,3,UG
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,NMT,2,GR
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,GxP,1,UG
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,SQL DB2,1,UG
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,Alternative Energy,3,UG
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,RBAC,2,UG
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,European Union Politics,1,UG
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,NATO,2,UG
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,IDL,1,UG
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,ETL Tools,2,GR
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,OSHA,1,GR
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,Earned Value Management,2,GR
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,BMX,2,UG
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,QINSy,3,GR
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,EOQ,3,GR
+5d068004-e3cb-11e9-8f87-3f8117b8e247,MFR,3,GR
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,Dispute Resolution,1,GR
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,Staff Development,3,GR
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,IM,2,GR
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,LGD,3,UG
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,Swedish,2,GR
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,Cybercrime,3,UG
+5d079142-e3cb-11e9-8f8e-53e3cec57009,GVP,1,UG
+5d07b852-e3cb-11e9-8f8f-872a7a270474,Gastroenterology,2,GR
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,Chamber Music,3,GR
+5d080672-e3cb-11e9-8f91-9f239e176814,NPIV,2,GR
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,Axles,3,UG
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,Statistical Data Analysis,2,UG
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,Aquatic Toxicology,3,UG
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,Typewriter,1,GR
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,Big 4,1,UG
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,Fashion Illustration,1,GR
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,Online Advertising,2,UG
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,Office Administration,1,UG
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,Software Project Management,2,GR
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,FF&amp;E Specifications,3,GR
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,AutoCAD Architecture,3,UG
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,FCoE,1,GR
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,Valuation,1,UG
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,Applied Behavior Analysis,1,UG
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,DCM,2,GR
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,ePolicy Orchestrator,1,UG
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,Jive SBS,3,UG
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,CMMI Level 5,3,UG
+5d0ac524-e3cb-11e9-8fa4-539e26619810,Applied Mathematics,3,GR
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,Igneous Petrology,2,GR
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,Ableton Live,1,GR
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,European Markets,1,UG
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,LPT,1,UG
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,Quality Improvement,2,GR
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,OTDR,3,UG
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,OCP,2,GR
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,GFSI,2,GR
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,CCNA,2,GR
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,People-oriented,1,GR
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,Youth Ministry,1,GR
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,NYS Notary Public,1,UG
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,Youth Engagement,2,GR
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,Computer Graphics,3,UG
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,TBB,1,GR
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,Essential Oils,1,UG
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,KDE,3,UG
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,LPC,2,UG
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,AutoCAD,2,GR
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,XRF,1,GR
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,IEC 62304,1,UG
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,Zuora,3,UG
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,iWork,3,UG
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,NRP,3,UG
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,RMI,1,UG
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,DST,1,UG
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,Air Traffic Control,2,GR
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,Job Coaching,3,GR
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,xSeries,1,UG
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,AutoCAD,1,GR
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,Hospitals,3,GR
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,CVM,3,UG
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,Novell,2,GR
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,Snow,1,GR
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,Axure RP,2,GR
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,Earthworks,3,UG
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,Karate,2,UG
+5d101b8c-e3cb-11e9-8fca-637b46847744,Blood Typing,3,GR
+5d104292-e3cb-11e9-8fcb-d768968cb93e,DV,2,UG
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,Twilio,3,GR
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,Operational Risk Management,1,GR
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,NSLDS,1,GR
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,LCL,3,GR
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,Plant Identification,3,UG
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,Human Capital,1,UG
+5d1153da-e3cb-11e9-8fd2-571e393a0849,EU Competition Law,1,GR
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,GSP,2,UG
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,Gmail,1,UG

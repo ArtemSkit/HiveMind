@@ -1,0 +1,501 @@
+CourseId,TeacherId,CRN,Campus,StartDate,ClassDays,StartTime,EndTime,ClassLocation,Semester
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,0DB67,Western Buttercup,10/1/2011,MFS,8:39 AM,6:44 PM,Granby,Spring
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0WBN4,Lecidea Lichen,10/9/2011,MR,7:40 AM,4:48 PM,Northview,Spring
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,047W0,Rabbit Ear Rockcress,10/12/2011,TWF,11:42 AM,8:00 PM,Eliot,Spring
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,05LF3,Kunth's Evening Primrose,10/14/2011,T,9:08 AM,8:00 PM,David,Fall
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,23ff66fe-e3cb-11e9-a44d-dffb1564461a,0BBM7,Punktree,10/18/2011,S,10:09 AM,1:18 PM,Bashford,Fall
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,0TS,Monkeyflower,10/18/2011,MRS,7:42 AM,8:06 PM,Tennyson,Spring
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,0B7B0,Sheep Laurel,10/23/2011,MFS,8:35 AM,5:41 PM,Goodland,Fall
+5d045d74-e3cb-11e9-8f78-33f15550d01b,23ffdc10-e3cb-11e9-a450-8b64523f1f94,F08M5,Limestone Maiden Fern,11/3/2011,MT,11:50 AM,8:00 PM,Dixon,Summer
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,24000320-e3cb-11e9-a451-d71a9b77b2ba,0MUF4,Cap Lichen,11/5/2011,MWR,8:14 AM,9:25 AM,Forster,Fall
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,24002a26-e3cb-11e9-a452-53e1d70cdb01,0DNT0,American Bushmint,11/6/2011,MTWFS,3:46 PM,6:26 PM,Eastlawn,Spring
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,24005136-e3cb-11e9-a453-cf258411afae,0KUP0,Rillita Pellitory,11/6/2011,W,11:43 AM,12:04 PM,Lukken,Summer
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,2400783c-e3cb-11e9-a454-af9ada70a8fb,3130,Woolly Cottonflower,11/11/2011,MRFS,4:57 PM,7:31 PM,Corry,Fall
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,24009f4c-e3cb-11e9-a455-9f3551648910,04RB0,Idria Buckwheat,11/20/2011,TRF,10:39 AM,8:00 PM,Village,Spring
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,2400c652-e3cb-11e9-a456-6f9cffa57954,0W990,Imshaug's Tube Lichen,11/22/2011,WRFS,6:53 PM,8:00 PM,Goodland,Summer
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,6104,Parasol Bladderpod,11/23/2011,WRFS,3:01 PM,5:04 PM,Melody,Fall
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,24013b6e-e3cb-11e9-a458-3ffee202a7bc,DF12B,Shortsepal Lewisia,11/29/2011,MTFS,8:15 AM,11:29 AM,Pankratz,Summer
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,2401627e-e3cb-11e9-a459-6b937003341c,0SP33,Bhutan Pine,12/12/2011,MTF,5:00 PM,8:00 PM,Welch,Fall
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,2401898e-e3cb-11e9-a45a-23659c6c95c7,8E0W3,Glandleaf Milkwort,12/15/2011,RF,6:59 PM,8:00 PM,Sommers,Spring
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,2401d7a4-e3cb-11e9-a45b-bf56b4322858,3E0J3,Sawtooth Bristleweed,12/18/2011,WF,3:30 PM,4:23 PM,Sherman,Spring
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,2401feaa-e3cb-11e9-a45c-2328c385f688,0UWMX,Cleft Sedge,12/21/2011,MTRS,5:20 PM,8:00 PM,Clarendon,Summer
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,240225b0-e3cb-11e9-a45d-13242514e334,05SS0,River Cyrtandra,12/22/2011,TS,7:17 AM,4:00 PM,Ridgeway,Spring
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,240273c6-e3cb-11e9-a45e-9773469fe73c,0WJP4,Tucson Mountain Spiderling,12/25/2011,MF,9:12 AM,5:25 PM,La Follette,Spring
+5d068004-e3cb-11e9-8f87-3f8117b8e247,24029acc-e3cb-11e9-a45f-07b33ead673c,0RPS0,Crenulate Rhabdoweisia Moss,1/3/2012,M,5:40 PM,8:00 PM,Sunnyside,Spring
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,2402c1dc-e3cb-11e9-a460-ffefc670849d,0KC03,Hobdy's Spleenwort,1/7/2012,WRFS,8:25 AM,1:05 PM,Sycamore,Fall
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0KXL4,Andreaea Moss,1/10/2012,TF,10:16 AM,11:22 AM,Dapin,Spring
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,240336f8-e3cb-11e9-a462-372732212b1a,047M4,Hypnum Moss,1/13/2012,MFS,11:51 AM,7:34 PM,Onsgard,Fall
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,24035dfe-e3cb-11e9-a463-b77a0b87b643,0YJ9X,False Leopardbane,1/15/2012,MWS,12:30 PM,8:13 PM,Lillian,Spring
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,24038504-e3cb-11e9-a464-0b6dfa689a12,0RGD4,Woman's Tobacco,1/23/2012,MWFS,9:01 AM,5:24 PM,Grover,Spring
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0FF83,Wright's Dutchman's Pipe,2/7/2012,TWF,3:31 PM,5:32 PM,Browning,Fall
+5d079142-e3cb-11e9-8f8e-53e3cec57009,2403d31a-e3cb-11e9-a466-875b95539ba8,0TL30,Mt. Hamilton Jewelflower,3/3/2012,F,12:19 PM,6:32 PM,Cottonwood,Summer
+5d07b852-e3cb-11e9-8f8f-872a7a270474,2403fa2a-e3cb-11e9-a467-8b61035f2d98,3150,Cooper's Popcornflower,3/10/2012,TF,5:00 PM,8:00 PM,Rockefeller,Spring
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,24042144-e3cb-11e9-a468-7bd2a30894df,0RP44,Prostrate Wild Petunia,3/16/2012,W,7:01 AM,8:32 AM,Maple Wood,Summer
+5d080672-e3cb-11e9-8f91-9f239e176814,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,0HHT8,Hairy-lemma Barley,3/18/2012,MT,11:58 AM,3:46 PM,Village,Summer
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,0DUG0,Holosteum,3/19/2012,FS,2:46 PM,7:42 PM,Village,Summer
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,2404bd7a-e3cb-11e9-a46b-abf884f49072,0FV83,Gray Alder,3/21/2012,WRS,10:45 AM,8:07 PM,Prentice,Summer
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,24050b72-e3cb-11e9-a46c-2b022a41fe97,30260,Winged Four O'clock,3/23/2012,TWFS,1:13 PM,7:34 PM,John Wall,Summer
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,24053278-e3cb-11e9-a46d-b31b97231b9c,0RCG0,Tube Tongue,3/31/2012,W,6:27 PM,8:00 PM,Springview,Summer
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,240580a2-e3cb-11e9-a46e-ab677f62609c,047M0,Vine Mesquite,4/8/2012,S,5:29 PM,8:00 PM,Sutteridge,Fall
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,2405a82a-e3cb-11e9-a46f-db4a40758356,04LY4,Southern Spicebush,4/11/2012,MWR,5:47 PM,8:00 PM,Iowa,Summer
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,24061d3c-e3cb-11e9-a470-9f33415bb88d,065H4,Hairy White Oldfield Aster,4/20/2012,MTWF,1:36 PM,5:20 PM,Michigan,Spring
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,240643d4-e3cb-11e9-a471-03e56dd8483b,0CPS8,Bartlett's Sphagnum,4/24/2012,MR,9:12 AM,6:10 PM,Meadow Valley,Spring
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0FQ44,Hungarian Clover,5/2/2012,T,4:43 PM,8:00 PM,Esker,Fall
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,24069258-e3cb-11e9-a473-d78ff025ac47,041H4,Hairy Indian Mallow,5/6/2012,MTR,2:29 PM,5:48 PM,Vidon,Fall
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,2406b968-e3cb-11e9-a474-abc1f5be99df,069N4,False Fleabane,5/17/2012,R,4:06 PM,8:00 PM,Blackbird,Summer
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,2406e06e-e3cb-11e9-a475-6759ea0b39bc,0M823,Wingstem,6/1/2012,TF,12:57 PM,8:00 PM,Myrtle,Fall
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,2407077e-e3cb-11e9-a476-c38a2befbfd7,0RHJ0,California Canarygrass,6/6/2012,F,9:25 AM,9:37 AM,Golf,Spring
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,24072e84-e3cb-11e9-a477-532258583846,09R2X,Alpine Bedstraw,6/7/2012,M,5:58 PM,8:00 PM,Westend,Fall
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,24075594-e3cb-11e9-a478-c315d9a694fc,F0726,Bird Beaksedge,6/14/2012,WR,5:50 PM,8:00 PM,Roth,Spring
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,09W70,Mycoporum Lichen,6/16/2012,MFS,4:17 PM,8:00 PM,Stephen,Summer
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,2407a3aa-e3cb-11e9-a47a-2379191142cf,01C84,Annual Rabbitsfoot Grass,6/21/2012,WRS,9:48 AM,6:48 PM,Artisan,Spring
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,F08G5,Sand Dropseed,6/22/2012,MRF,10:46 AM,4:47 PM,Lien,Summer
+5d0ac524-e3cb-11e9-8fa4-539e26619810,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0GCQ4,Ophioparma Lichen,6/22/2012,TWRS,2:12 PM,8:00 PM,Delaware,Summer
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,051V4,Rod Wirelettuce,6/22/2012,TWR,8:24 AM,2:42 PM,Stuart,Summer
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0JJS0,Wavyleaf Ceanothus,6/23/2012,MS,10:28 AM,3:12 PM,Brentwood,Fall
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,23ff66fe-e3cb-11e9-a44d-dffb1564461a,0BPKX,Prairie Rose,7/6/2012,WRFS,9:00 AM,1:48 PM,Canary,Fall
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,08RY3,Bergamot Orange,7/11/2012,F,11:01 AM,3:20 PM,Browning,Fall
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,00KC0,Ridge Johnnyberry,7/14/2012,MF,8:58 AM,1:42 PM,Lakeland,Summer
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,23ffdc10-e3cb-11e9-a450-8b64523f1f94,0QRR4,Cologania,7/24/2012,MTRF,1:36 PM,3:16 PM,Upham,Spring
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,24000320-e3cb-11e9-a451-d71a9b77b2ba,3E1N3,Cetraria Lichen,7/27/2012,W,7:49 AM,7:29 PM,Talmadge,Fall
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,24002a26-e3cb-11e9-a452-53e1d70cdb01,1924,Rosy Gilia,7/28/2012,T,9:41 AM,7:03 PM,Bayside,Summer
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,24005136-e3cb-11e9-a453-cf258411afae,0UBG4,Southern Bayberry,8/6/2012,MT,3:57 PM,8:07 PM,Cardinal,Fall
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,2400783c-e3cb-11e9-a454-af9ada70a8fb,0RG23,Pinegrove Groundsmoke,8/9/2012,MTR,11:24 AM,3:48 PM,New Castle,Summer
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,24009f4c-e3cb-11e9-a455-9f3551648910,0KCB4,Spanish Stonecrop,8/12/2012,TWFS,8:25 AM,3:02 PM,Arkansas,Summer
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,2400c652-e3cb-11e9-a456-6f9cffa57954,0V9B4,Soldier Beaksedge,8/15/2012,T,4:48 PM,8:00 PM,Fairview,Summer
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0PPGX,Douglas' Thistle,8/18/2012,TS,12:56 PM,8:00 PM,Redwing,Fall
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,24013b6e-e3cb-11e9-a458-3ffee202a7bc,07LH4,Roundpod St. Johnswort,8/18/2012,F,7:26 AM,12:21 PM,Kinsman,Spring
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,2401627e-e3cb-11e9-a459-6b937003341c,037U0,Cacaliopsis,8/23/2012,MT,2:26 PM,4:30 PM,Commercial,Spring
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,2401898e-e3cb-11e9-a45a-23659c6c95c7,0KSM4,Keyflower,9/4/2012,R,6:43 PM,8:00 PM,Judy,Spring
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,2401d7a4-e3cb-11e9-a45b-bf56b4322858,0NSV4,Creeping Waxweed,9/6/2012,MTW,11:29 AM,1:21 PM,Anhalt,Summer
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,2401feaa-e3cb-11e9-a45c-2328c385f688,0QW63,Elliptic Plagiomnium Moss,9/8/2012,M,5:42 PM,8:00 PM,Fuller,Spring
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,240225b0-e3cb-11e9-a45d-13242514e334,037T0,Long Valley Milkvetch,9/9/2012,T,12:42 PM,8:00 PM,Sunnyside,Fall
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,240273c6-e3cb-11e9-a45e-9773469fe73c,0T183,Robust Clubmoss,9/10/2012,WS,10:31 AM,10:54 AM,Redwing,Spring
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,24029acc-e3cb-11e9-a45f-07b33ead673c,0RP34,Fellhanera Lichen,9/13/2012,F,5:49 PM,6:46 PM,Hooker,Fall
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,2402c1dc-e3cb-11e9-a460-ffefc670849d,0PPJ0,Shortspur Seablush,9/19/2012,MTR,7:59 AM,10:59 AM,Pennsylvania,Summer
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0BBG4,Soliman's Croton,9/24/2012,T,1:26 PM,8:00 PM,Dennis,Spring
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,240336f8-e3cb-11e9-a462-372732212b1a,0RWR4,Japanese Timber Bamboo,10/3/2012,R,3:13 PM,8:00 PM,Jenifer,Spring
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,24035dfe-e3cb-11e9-a463-b77a0b87b643,0B9B8,Death Valley Beardtongue,10/3/2012,R,3:17 PM,8:00 PM,Pleasure,Summer
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,24038504-e3cb-11e9-a464-0b6dfa689a12,03LY0,Gummy Gooseberry,10/4/2012,F,3:22 PM,4:22 PM,Donald,Fall
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0RGR0,Bush Arrowleaf,10/12/2012,RS,10:06 AM,7:49 PM,Bayside,Spring
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,2403d31a-e3cb-11e9-a466-875b95539ba8,0PSV4,Monterey Clover,10/24/2012,M,1:31 PM,7:37 PM,Petterle,Spring
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,2403fa2a-e3cb-11e9-a467-8b61035f2d98,047U0,Wilson's Maidenhair,10/27/2012,MTW,9:53 AM,9:59 AM,High Crossing,Fall
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,24042144-e3cb-11e9-a468-7bd2a30894df,0WWB4,Scarlet Calamint,10/27/2012,MTW,3:45 PM,8:00 PM,Sage,Fall
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,04CC3,Cartilage Lichen,10/27/2012,TW,2:17 PM,6:23 PM,Village,Summer
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,037P4,Castela,11/8/2012,M,9:30 AM,8:00 PM,Menomonie,Fall
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,2404bd7a-e3cb-11e9-a46b-abf884f49072,041N4,Michelia,11/14/2012,T,1:42 PM,2:51 PM,Summerview,Fall
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,24050b72-e3cb-11e9-a46c-2b022a41fe97,0WWM4,Longstyle Rush,11/19/2012,TRS,4:49 PM,8:00 PM,Hudson,Spring
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,24053278-e3cb-11e9-a46d-b31b97231b9c,047D0,Oahu Kihifern,11/26/2012,MT,8:01 AM,10:03 AM,Anhalt,Summer
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,240580a2-e3cb-11e9-a46e-ab677f62609c,0RHN0,Wirevine,12/7/2012,F,4:21 PM,8:00 PM,North,Spring
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,2405a82a-e3cb-11e9-a46f-db4a40758356,037A0,Mock Bluestem,12/29/2012,MF,12:44 PM,8:00 PM,Tennyson,Spring
+5d101b8c-e3cb-11e9-8fca-637b46847744,24061d3c-e3cb-11e9-a470-9f33415bb88d,0RWR0,Parmotrema Lichen,1/8/2013,MW,9:12 AM,5:25 PM,Merchant,Spring
+5d104292-e3cb-11e9-8fcb-d768968cb93e,240643d4-e3cb-11e9-a471-03e56dd8483b,051G0,Littletooth Sedge,1/8/2013,MTFS,5:10 PM,8:00 PM,Grim,Summer
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,24066ada-e3cb-11e9-a472-6f3a5fb18c88,07BK3,Dwarf Ninebark,1/15/2013,MW,5:36 PM,8:00 PM,Gina,Fall
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,24069258-e3cb-11e9-a473-d78ff025ac47,0KX80,California Four O'clock,1/24/2013,MTWS,12:20 PM,6:39 PM,Surrey,Summer
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,2406b968-e3cb-11e9-a474-abc1f5be99df,0QW63,Whip Nutrush,1/28/2013,MT,4:11 PM,6:50 PM,Knutson,Spring
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,2406e06e-e3cb-11e9-a475-6759ea0b39bc,0YQTX,White Wormwood,2/15/2013,F,5:24 PM,8:00 PM,Barnett,Summer
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,2407077e-e3cb-11e9-a476-c38a2befbfd7,037K3,Downy Phlox,2/22/2013,S,6:08 PM,8:00 PM,Arrowood,Spring
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,24072e84-e3cb-11e9-a477-532258583846,F07N1,Regal Lily,2/25/2013,RS,5:33 PM,8:00 PM,Rusk,Fall
+5d1153da-e3cb-11e9-8fd2-571e393a0849,24075594-e3cb-11e9-a478-c315d9a694fc,045A3,Blackhaw,2/26/2013,MRF,3:43 PM,7:57 PM,Bay,Fall
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,00XL4,African Basil,2/26/2013,MRF,11:02 AM,7:33 PM,Pawling,Spring
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,2407a3aa-e3cb-11e9-a47a-2379191142cf,0TWB7,Saw Greenbrier,3/2/2013,MWRF,7:32 AM,6:06 PM,Scoville,Spring
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,0SNG4,Paradise Nut,3/3/2013,MWFS,9:07 AM,2:17 PM,Waywood,Summer
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0B9G4,Elmleaf Goldenrod,3/4/2013,MTS,8:39 AM,8:44 AM,Montana,Spring
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,DF11B,Spring Pygmycudweed,3/7/2013,TF,1:42 PM,2:59 PM,Iowa,Fall
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0JJWX,Masonic Mountain Jewelflower,3/18/2013,MWR,10:51 AM,1:20 PM,Laurel,Summer
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,23ff66fe-e3cb-11e9-a44d-dffb1564461a,47207,Faurie's Panicgrass,3/20/2013,MTW,10:45 AM,1:59 PM,Homewood,Fall
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,06VT4,Arizona Wrightwort,3/23/2013,MTR,5:00 PM,8:00 PM,Pennsylvania,Spring
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,06U64,Leafy Bladderwort,3/28/2013,F,4:18 PM,4:53 PM,Sullivan,Fall
+5d045d74-e3cb-11e9-8f78-33f15550d01b,23ffdc10-e3cb-11e9-a450-8b64523f1f94,00WVX,Dark Noseburn,3/29/2013,F,10:10 AM,3:01 PM,Dunning,Summer
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,24000320-e3cb-11e9-a451-d71a9b77b2ba,06NR3,Yellow Phacelia,3/31/2013,MWF,10:27 AM,11:24 AM,Graceland,Spring
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,24002a26-e3cb-11e9-a452-53e1d70cdb01,0Q9G4,Polytrichum Moss,3/31/2013,MTFS,3:02 PM,8:00 PM,Thackeray,Summer
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,24005136-e3cb-11e9-a453-cf258411afae,09U88,Woolly Brome,4/5/2013,R,12:36 PM,8:00 PM,Crest Line,Spring
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,2400783c-e3cb-11e9-a454-af9ada70a8fb,3E0Q0,Watson's Prickly Phlox,4/8/2013,TR,5:38 PM,7:27 PM,Farwell,Spring
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,24009f4c-e3cb-11e9-a455-9f3551648910,0PPM3,Panamint Springparsley,4/10/2013,MT,1:56 PM,4:17 PM,Basil,Spring
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,2400c652-e3cb-11e9-a456-6f9cffa57954,0WW54,Desert Twinbugs,4/11/2013,MTFS,1:05 PM,6:24 PM,Bluejay,Fall
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0LB53,Alpine Lily,4/27/2013,MTRS,4:23 PM,5:16 PM,Golf Course,Summer
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,24013b6e-e3cb-11e9-a458-3ffee202a7bc,0FVD4,Chalk Maple,5/7/2013,TRF,1:01 PM,6:19 PM,Cambridge,Fall
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,2401627e-e3cb-11e9-a459-6b937003341c,0JWS3,Oregon Buttercup,5/22/2013,MF,2:20 PM,7:17 PM,Lunder,Fall
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,2401898e-e3cb-11e9-a45a-23659c6c95c7,0SB60,Phaeoceros,6/8/2013,M,5:45 PM,8:00 PM,Welch,Summer
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,2401d7a4-e3cb-11e9-a45b-bf56b4322858,F07L1,Leafy Blackberry,6/22/2013,WRS,12:11 PM,6:27 PM,Jenifer,Summer
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,2401feaa-e3cb-11e9-a45c-2328c385f688,037L0,Calymperes Moss,6/23/2013,TR,10:00 AM,6:50 PM,Bartillon,Fall
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,240225b0-e3cb-11e9-a45d-13242514e334,0RGV4,Septicweed,6/26/2013,TW,12:25 PM,1:59 PM,Oneill,Spring
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,240273c6-e3cb-11e9-a45e-9773469fe73c,04U60,Kass' Draba,6/28/2013,TF,4:43 PM,4:47 PM,Lotheville,Summer
+5d068004-e3cb-11e9-8f87-3f8117b8e247,24029acc-e3cb-11e9-a45f-07b33ead673c,0NRK3,Citron,6/29/2013,MTR,6:09 PM,7:25 PM,Bowman,Spring
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,2402c1dc-e3cb-11e9-a460-ffefc670849d,0FJB0,Atlantic Pigeonwings,7/9/2013,TS,10:14 AM,5:52 PM,Sutteridge,Spring
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0T544,Fivepetal Leaf-flower,7/16/2013,RFS,2:22 PM,8:00 PM,Kropf,Summer
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,240336f8-e3cb-11e9-a462-372732212b1a,02UX0,Woodvamp,7/23/2013,RS,1:26 PM,3:41 PM,Browning,Fall
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,24035dfe-e3cb-11e9-a463-b77a0b87b643,03C40,Thorny Popolo,8/6/2013,MF,2:45 PM,8:00 PM,Lillian,Fall
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,24038504-e3cb-11e9-a464-0b6dfa689a12,0WW40,Fremont's Chaffbush,8/13/2013,TWF,12:26 PM,8:00 PM,Burning Wood,Fall
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0Y6N0,San Clemente Island Woodland-star,8/21/2013,MRS,3:00 PM,8:00 PM,Toban,Spring
+5d079142-e3cb-11e9-8f8e-53e3cec57009,2403d31a-e3cb-11e9-a466-875b95539ba8,0SW73,Giant Lousewort,8/22/2013,WS,8:02 AM,4:37 PM,Onsgard,Spring
+5d07b852-e3cb-11e9-8f8f-872a7a270474,2403fa2a-e3cb-11e9-a467-8b61035f2d98,03Q70,Sunset Crater Beardtongue,9/11/2013,R,7:28 AM,10:23 AM,Oak,Summer
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,24042144-e3cb-11e9-a468-7bd2a30894df,0QP40,Menzies' Tansymustard,9/18/2013,MWRF,11:53 AM,8:11 PM,Southridge,Spring
+5d080672-e3cb-11e9-8f91-9f239e176814,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,0L810,Parry's Rabbitbrush,9/18/2013,WS,3:53 PM,6:38 PM,Springs,Spring
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,06VP0,Gray Goldenrod,9/19/2013,MF,11:49 AM,3:26 PM,Miller,Spring
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,2404bd7a-e3cb-11e9-a46b-abf884f49072,0NC23,Paradise Tansymustard,10/4/2013,MRF,2:12 PM,8:00 PM,Havey,Summer
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,24050b72-e3cb-11e9-a46c-2b022a41fe97,0QPC4,Beautiful Aster,10/5/2013,TS,4:13 PM,8:00 PM,Sutherland,Spring
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,24053278-e3cb-11e9-a46d-b31b97231b9c,089V0,Willowleaf Aster,10/9/2013,R,9:40 AM,10:59 AM,Main,Summer
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,240580a2-e3cb-11e9-a46e-ab677f62609c,0SB50,Rockweed,10/13/2013,MTW,3:43 PM,4:08 PM,Manley,Spring
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,2405a82a-e3cb-11e9-a46f-db4a40758356,041C0,Longflower Tuberose,10/13/2013,T,7:20 AM,9:15 AM,High Crossing,Summer
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,24061d3c-e3cb-11e9-a470-9f33415bb88d,0D1N8,Wedgeleaf Draba,10/26/2013,MTWR,3:29 PM,8:13 PM,Stang,Summer
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,240643d4-e3cb-11e9-a471-03e56dd8483b,0SHK4,Arizona Cottonrose,11/4/2013,MWRF,4:59 PM,8:00 PM,Cambridge,Spring
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0RG03,Baltzell's Sedge,11/5/2013,MRF,7:11 AM,3:24 PM,Daystar,Spring
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,24069258-e3cb-11e9-a473-d78ff025ac47,4A1J7,Norwegian Angelica,11/14/2013,TWRS,11:09 AM,5:33 PM,Monterey,Spring
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,2406b968-e3cb-11e9-a474-abc1f5be99df,0RCM0,Northern Singlespike Sedge,11/17/2013,MTRF,8:04 AM,9:08 AM,Cardinal,Summer
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,2406e06e-e3cb-11e9-a475-6759ea0b39bc,06L33,Texan Great Ragweed,11/20/2013,S,11:34 AM,7:06 PM,Bartelt,Spring
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,2407077e-e3cb-11e9-a476-c38a2befbfd7,0RG43,Barnacle Lichen,11/21/2013,W,1:39 PM,8:00 PM,Lunder,Spring
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,24072e84-e3cb-11e9-a477-532258583846,0T134,Broadleaf Signalgrass,11/22/2013,TW,11:12 AM,8:00 PM,Raven,Fall
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,24075594-e3cb-11e9-a478-c315d9a694fc,0SGN3,Freckled Milkvetch,12/12/2013,WS,6:38 PM,8:00 PM,Sunbrook,Summer
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0Q850,Angleleaf Miterwort,12/18/2013,MTR,11:55 AM,8:00 PM,Sachs,Summer
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,2407a3aa-e3cb-11e9-a47a-2379191142cf,08BY0,Coyotillo,12/29/2013,WF,3:16 PM,6:24 PM,Lindbergh,Fall
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,0MBM0,Rough Avens,12/29/2013,MW,1:39 PM,2:25 PM,Hanson,Spring
+5d0ac524-e3cb-11e9-8fa4-539e26619810,23fef1d8-e3cb-11e9-a44a-0b17727bf406,03UJ4,Fringed Orchid,1/12/2014,MW,7:08 AM,10:09 AM,Riverside,Fall
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,0N8N4,Redtop Panicgrass,1/19/2014,S,5:36 PM,8:00 PM,American,Fall
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0C9QX,Buckley's Fluffgrass,1/21/2014,W,9:46 AM,1:16 PM,Corscot,Fall
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,23ff66fe-e3cb-11e9-a44d-dffb1564461a,0X690,Western Rattlesnake Plantain,1/21/2014,WFS,11:53 AM,3:21 PM,Westport,Summer
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,0SHF4,Western Springbeauty,1/24/2014,T,10:49 AM,1:15 PM,Bowman,Fall
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,0QS0X,Beach Pea,2/8/2014,WRFS,5:51 PM,8:00 PM,Kingsford,Fall
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,23ffdc10-e3cb-11e9-a450-8b64523f1f94,2W56X,Egyptian Carissa,2/8/2014,T,11:45 AM,4:05 PM,Southridge,Summer
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,24000320-e3cb-11e9-a451-d71a9b77b2ba,05HB4,Desert Indianwheat,2/21/2014,MTWF,10:36 AM,8:00 PM,Nancy,Spring
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,24002a26-e3cb-11e9-a452-53e1d70cdb01,0PRJ3,Curly Wallflower,2/24/2014,MTRF,7:18 AM,8:04 PM,Ridgeview,Summer
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,24005136-e3cb-11e9-a453-cf258411afae,0RNG3,Swamp Peperomia,3/15/2014,MWRS,12:22 PM,8:00 PM,Steensland,Spring
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,2400783c-e3cb-11e9-a454-af9ada70a8fb,04LL0,Coulter's Stickpea,3/19/2014,MTS,7:51 AM,6:51 PM,Pankratz,Spring
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,24009f4c-e3cb-11e9-a455-9f3551648910,0LXN4,Buffalo Hawthorn,3/19/2014,MTR,5:54 PM,8:00 PM,Sundown,Spring
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,2400c652-e3cb-11e9-a456-6f9cffa57954,0NBF4,Sticky Chickweed,3/20/2014,T,11:09 AM,4:42 PM,Schiller,Fall
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,02US4,Broad Fleabane,3/27/2014,W,5:49 PM,8:00 PM,Old Shore,Fall
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,24013b6e-e3cb-11e9-a458-3ffee202a7bc,05QB3,Crispleaf Buckwheat,4/1/2014,TW,7:23 AM,2:34 PM,Bayside,Spring
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,2401627e-e3cb-11e9-a459-6b937003341c,0MSJ0,Desertparsley,4/1/2014,W,8:01 AM,8:45 AM,Michigan,Summer
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,2401898e-e3cb-11e9-a45a-23659c6c95c7,30250,Maidenhair Fern,4/5/2014,M,4:36 PM,4:42 PM,Nobel,Spring
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,2401d7a4-e3cb-11e9-a45b-bf56b4322858,061S0,Psilopilum Moss,4/7/2014,TWRS,9:28 AM,4:05 PM,Macpherson,Spring
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,2401feaa-e3cb-11e9-a45c-2328c385f688,0S9M0,Fissidens Moss,4/16/2014,R,6:18 PM,8:00 PM,Haas,Spring
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,240225b0-e3cb-11e9-a45d-13242514e334,0Q983,Russian Thistle,4/20/2014,TFS,6:06 PM,8:01 PM,Namekagon,Summer
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,240273c6-e3cb-11e9-a45e-9773469fe73c,0QSH0,Tropical Ladies'-tresses,4/25/2014,MF,6:43 PM,8:00 PM,Briar Crest,Summer
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,24029acc-e3cb-11e9-a45f-07b33ead673c,04HK3,Striped Cottonthorn,4/29/2014,MS,3:01 PM,7:31 PM,Arkansas,Summer
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,2402c1dc-e3cb-11e9-a460-ffefc670849d,0UJD4,False Goldenaster,5/1/2014,TS,1:59 PM,8:00 PM,Anderson,Spring
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0MNB4,Tamarisk,5/9/2014,FS,7:53 AM,5:01 PM,Golden Leaf,Fall
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,240336f8-e3cb-11e9-a462-372732212b1a,0WWG4,Twinberry,5/14/2014,T,6:29 PM,8:00 PM,Tomscot,Spring
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,24035dfe-e3cb-11e9-a463-b77a0b87b643,0FPD3,African Star Apple,5/18/2014,WRS,9:47 AM,7:44 PM,Farragut,Spring
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,24038504-e3cb-11e9-a464-0b6dfa689a12,04HS0,Benitoa,5/19/2014,TFS,7:13 AM,12:11 PM,Bonner,Summer
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,2403ac14-e3cb-11e9-a465-2b9c06564ebb,06PY0,Shell Lichen,5/28/2014,T,8:10 AM,10:52 AM,Reindahl,Spring
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,2403d31a-e3cb-11e9-a466-875b95539ba8,051C0,Chinese-pepper,5/28/2014,WRS,9:58 AM,2:13 PM,Buhler,Summer
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,2403fa2a-e3cb-11e9-a467-8b61035f2d98,02BP3,Fragrant Ash,5/29/2014,WF,9:43 AM,11:49 AM,Killdeer,Fall
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,24042144-e3cb-11e9-a468-7bd2a30894df,0DFF4,Rosinweed,5/29/2014,MWS,3:26 PM,3:48 PM,Esch,Summer
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,0WW90,Tundra Alkaligrass,6/5/2014,R,5:24 PM,8:00 PM,North,Summer
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,0LBW0,Ajowan Caraway,7/1/2014,MF,6:27 PM,7:15 PM,Maple,Fall
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,2404bd7a-e3cb-11e9-a46b-abf884f49072,0D7N7,Pore Lichen,7/12/2014,MFS,1:52 PM,8:00 PM,Aberg,Spring
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,24050b72-e3cb-11e9-a46c-2b022a41fe97,0DB17,Arrowweed,7/15/2014,MW,2:19 PM,8:00 PM,Shasta,Summer
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,24053278-e3cb-11e9-a46d-b31b97231b9c,06V10,Hybrid Oak,7/23/2014,T,7:11 AM,3:37 PM,Shopko,Fall
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,240580a2-e3cb-11e9-a46e-ab677f62609c,0D9A0,Slimleaf Drymary,7/27/2014,MF,7:01 AM,9:26 AM,Stuart,Spring
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,2405a82a-e3cb-11e9-a46f-db4a40758356,031B0,Gray Gum,8/4/2014,F,2:25 PM,6:35 PM,Dahle,Spring
+5d101b8c-e3cb-11e9-8fca-637b46847744,24061d3c-e3cb-11e9-a470-9f33415bb88d,02QT3,Fall Rosette Grass,8/9/2014,MWR,11:03 AM,8:00 PM,Esker,Spring
+5d104292-e3cb-11e9-8fcb-d768968cb93e,240643d4-e3cb-11e9-a471-03e56dd8483b,0TPD4,Tuberous Vervain,8/12/2014,R,3:30 PM,8:00 PM,Oriole,Spring
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0WWJX,Littleleaf False Tamarind,8/13/2014,WS,10:49 AM,4:44 PM,Texas,Fall
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,24069258-e3cb-11e9-a473-d78ff025ac47,B706Y,Dark Noseburn,8/18/2014,MF,10:58 AM,1:32 PM,Old Shore,Fall
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,2406b968-e3cb-11e9-a474-abc1f5be99df,0BPT7,California Woodsorrel,8/21/2014,MTFS,11:53 AM,4:07 PM,Canary,Summer
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,2406e06e-e3cb-11e9-a475-6759ea0b39bc,0PBS0,Cape Primrose,8/24/2014,TFS,9:01 AM,3:35 PM,Blackbird,Summer
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,2407077e-e3cb-11e9-a476-c38a2befbfd7,0NWW3,Tall Jointweed,8/26/2014,WR,9:17 AM,7:06 PM,Meadow Vale,Spring
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,24072e84-e3cb-11e9-a477-532258583846,0LUJ0,Disc Lichen,8/28/2014,TWRF,5:08 PM,6:12 PM,Sunbrook,Summer
+5d1153da-e3cb-11e9-8fd2-571e393a0849,24075594-e3cb-11e9-a478-c315d9a694fc,0TUC4,Rusby's Milkweed,9/2/2014,TWS,1:34 PM,8:00 PM,Oak,Spring
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0QP23,Brownhair Lacefern,9/8/2014,MS,11:20 AM,12:02 PM,Hooker,Spring
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,2407a3aa-e3cb-11e9-a47a-2379191142cf,0CBR3,Alderleaf Mountain Mahogany,9/15/2014,MTWF,6:46 PM,8:00 PM,Clemons,Summer
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,05V33,Old World Forkedfern,10/7/2014,MWRS,7:06 AM,7:58 PM,Weeping Birch,Fall
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,23fef1d8-e3cb-11e9-a44a-0b17727bf406,047J4,Abata Cola,10/7/2014,R,3:24 PM,8:00 PM,Jenna,Summer
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,0QWJX,Philoxerus,10/12/2014,RF,11:22 AM,5:55 PM,Pine View,Fall
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0BF13,Zacale,10/15/2014,MTWS,11:28 AM,5:12 PM,Nancy,Spring
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,23ff66fe-e3cb-11e9-a44d-dffb1564461a,6753,Macnab Oak,10/22/2014,MWRS,8:25 AM,3:04 PM,Center,Spring
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,021W0,White Wormwood,10/26/2014,TWS,7:26 AM,12:16 PM,Service,Spring
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,DU2,False Candytuft,10/28/2014,RS,5:56 PM,8:00 PM,Crowley,Fall
+5d045d74-e3cb-11e9-8f78-33f15550d01b,23ffdc10-e3cb-11e9-a450-8b64523f1f94,0YHL3,Twining Snoutbean,11/15/2014,TWR,3:07 PM,5:22 PM,Vermont,Fall
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,24000320-e3cb-11e9-a451-d71a9b77b2ba,2W4KX,Spotted Evening Primrose,11/20/2014,TW,2:52 PM,8:00 PM,Bartillon,Spring
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,24002a26-e3cb-11e9-a452-53e1d70cdb01,0V9G4,Sperry's Onion,11/20/2014,TW,10:47 AM,12:29 PM,Esker,Summer
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,24005136-e3cb-11e9-a453-cf258411afae,018R0,Tropical Bent,11/26/2014,TWRS,3:55 PM,8:00 PM,Paget,Spring
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,2400783c-e3cb-11e9-a454-af9ada70a8fb,03CN3,Widgeonweed,12/8/2014,TRFS,4:05 PM,8:00 PM,Duke,Summer
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,24009f4c-e3cb-11e9-a455-9f3551648910,05HR0,Lepisorus,12/26/2014,FS,8:45 AM,8:00 PM,Crescent Oaks,Spring
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,2400c652-e3cb-11e9-a456-6f9cffa57954,0Y9C0,Tower Rockcress,12/28/2014,RF,12:13 PM,8:00 PM,La Follette,Summer
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0QSB0,Oregon Sphagnum,1/4/2015,S,9:29 AM,6:01 PM,Victoria,Spring
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,24013b6e-e3cb-11e9-a458-3ffee202a7bc,02BS0,Ross' Avens,1/10/2015,MWS,3:18 PM,8:00 PM,Pepper Wood,Fall
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,2401627e-e3cb-11e9-a459-6b937003341c,0TW58,Alpine Mirrorplant,1/15/2015,RF,9:09 AM,8:04 PM,Milwaukee,Fall
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,2401898e-e3cb-11e9-a45a-23659c6c95c7,F07Z4,Hairy Bird's Beak,1/21/2015,TWFS,4:01 PM,7:27 PM,Esch,Fall
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,2401d7a4-e3cb-11e9-a45b-bf56b4322858,03VJ4,Weedin's Hedgehog Cactus,1/30/2015,TRFS,11:30 AM,6:25 PM,Lotheville,Spring
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,2401feaa-e3cb-11e9-a45c-2328c385f688,0CCX0,Nootka Rose,2/4/2015,MTF,4:04 PM,8:00 PM,Karstens,Summer
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,240225b0-e3cb-11e9-a45d-13242514e334,09NT4,'ohi'a Lehua,2/13/2015,MT,10:17 AM,8:00 PM,Gina,Summer
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,240273c6-e3cb-11e9-a45e-9773469fe73c,06RD4,Bog Alkaligrass,2/27/2015,WFS,11:54 AM,8:00 PM,Roxbury,Fall
+5d068004-e3cb-11e9-8f87-3f8117b8e247,24029acc-e3cb-11e9-a45f-07b33ead673c,3E0N8,Coral Lead Lichen,2/28/2015,TFS,9:13 AM,2:42 PM,Parkside,Fall
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,2402c1dc-e3cb-11e9-a460-ffefc670849d,4784,Common Tarweed,3/7/2015,T,1:30 PM,8:00 PM,Susan,Fall
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0T978,Psilopilum Moss,3/12/2015,TWR,3:20 PM,8:00 PM,Chinook,Fall
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,240336f8-e3cb-11e9-a462-372732212b1a,065R4,Hybrid Walnut,3/20/2015,WRF,9:46 AM,3:33 PM,La Follette,Spring
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,24035dfe-e3cb-11e9-a463-b77a0b87b643,163,Hooked Bristlegrass,3/26/2015,TRS,12:25 PM,8:00 PM,Nevada,Summer
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,24038504-e3cb-11e9-a464-0b6dfa689a12,BV030,Bristlecup Sandmat,4/4/2015,MWR,3:18 PM,5:03 PM,Buhler,Summer
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0KXJ4,Suksdorf's Desertparsley,4/7/2015,F,10:26 AM,4:21 PM,Texas,Summer
+5d079142-e3cb-11e9-8f8e-53e3cec57009,2403d31a-e3cb-11e9-a466-875b95539ba8,0RGA3,Purple Pitcherplant,4/11/2015,TW,10:12 AM,8:00 PM,Kinsman,Fall
+5d07b852-e3cb-11e9-8f8f-872a7a270474,2403fa2a-e3cb-11e9-a467-8b61035f2d98,DD15B,Tough Bully,4/23/2015,WRS,2:24 PM,8:00 PM,Washington,Summer
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,24042144-e3cb-11e9-a468-7bd2a30894df,0QW53,Orchardgrass,4/26/2015,MTW,5:59 PM,7:24 PM,Blaine,Spring
+5d080672-e3cb-11e9-8f91-9f239e176814,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,037G3,Geranium,5/2/2015,MTWRS,9:22 AM,3:07 PM,South,Summer
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,C025D,Thismia,5/9/2015,F,10:08 AM,3:13 PM,Graceland,Summer
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,2404bd7a-e3cb-11e9-a46b-abf884f49072,08W08,Tropical Chinchweed,5/15/2015,TW,2:40 PM,5:38 PM,Alpine,Summer
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,24050b72-e3cb-11e9-a46c-2b022a41fe97,0QC84,Merismatium Lichen,6/11/2015,TRF,2:20 PM,8:00 PM,Burning Wood,Fall
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,24053278-e3cb-11e9-a46d-b31b97231b9c,0WP2X,Yukon Wheatgrass,6/15/2015,W,2:52 PM,4:40 PM,Thompson,Spring
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,240580a2-e3cb-11e9-a46e-ab677f62609c,0QPL4,Buckwheat,6/17/2015,FS,1:28 PM,5:42 PM,Evergreen,Fall
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,2405a82a-e3cb-11e9-a46f-db4a40758356,0LR74,Cuachilote,6/17/2015,R,5:06 PM,8:00 PM,Cardinal,Spring
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,24061d3c-e3cb-11e9-a470-9f33415bb88d,0JHH3,Alpine Clubrush,6/20/2015,TRS,4:08 PM,8:00 PM,Mendota,Summer
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,240643d4-e3cb-11e9-a471-03e56dd8483b,037R3,Tuberous Springbeauty,6/22/2015,MS,5:56 PM,7:21 PM,Vidon,Fall
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0V1Q0,Chihuahua Tansyaster,6/25/2015,M,7:13 AM,12:10 PM,2nd,Summer
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,24069258-e3cb-11e9-a473-d78ff025ac47,B3131,Giant Calliergon Moss,6/27/2015,MS,12:43 PM,1:45 PM,Wayridge,Summer
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,2406b968-e3cb-11e9-a474-abc1f5be99df,GZC,Snowy Orchid,7/1/2015,M,12:57 PM,1:10 PM,Straubel,Spring
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,2406e06e-e3cb-11e9-a475-6759ea0b39bc,02QA3,Yellowdot Saxifrage,7/22/2015,TWFS,7:15 AM,7:37 PM,Acker,Fall
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,2407077e-e3cb-11e9-a476-c38a2befbfd7,2W0MX,Southern Jewelflower,7/24/2015,R,10:35 AM,4:17 PM,Rockefeller,Spring
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,24072e84-e3cb-11e9-a477-532258583846,0JQC0,Needleleaf Navarretia,7/27/2015,TWRS,3:53 PM,8:11 PM,Sunbrook,Summer
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,24075594-e3cb-11e9-a478-c315d9a694fc,04B93,Longflower Cryptantha,7/30/2015,MTS,2:07 PM,3:51 PM,Harper,Spring
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0UNG7,Lace Hedgehog Cactus,8/2/2015,F,5:17 PM,8:00 PM,Carberry,Summer
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,2407a3aa-e3cb-11e9-a47a-2379191142cf,27246,Dwarf Rose,8/4/2015,MS,10:48 AM,8:00 PM,Surrey,Fall
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,0XHD0,Desert Dodder,8/17/2015,MF,11:43 AM,8:00 PM,Killdeer,Fall
+5d0ac524-e3cb-11e9-8fa4-539e26619810,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0SUE0,Jersey Knapweed,8/19/2015,TWRFS,5:18 PM,8:04 PM,Lerdahl,Summer
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,F0130,Silky Lupine,8/22/2015,MTWRF,5:55 PM,7:46 PM,Debs,Spring
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,03BV4,Carolina Horsenettle,8/25/2015,W,6:18 PM,8:00 PM,Dennis,Summer
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,23ff66fe-e3cb-11e9-a44d-dffb1564461a,0QSM0,Sagebrush Combseed,8/29/2015,F,8:35 AM,1:06 PM,Kensington,Fall
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,0SJG0,Pygmy Racomitrium Moss,9/2/2015,WF,6:59 PM,8:00 PM,Bay,Spring
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,02UA0,Toumey's Century Plant,9/3/2015,MFS,2:33 PM,8:00 PM,Artisan,Summer
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,23ffdc10-e3cb-11e9-a450-8b64523f1f94,B52JZ,California Indian Potato,9/16/2015,MR,4:23 PM,4:36 PM,Vermont,Spring
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,24000320-e3cb-11e9-a451-d71a9b77b2ba,0T577,Starveling Milkvetch,9/19/2015,MRFS,7:59 AM,3:19 PM,Sunfield,Spring
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,24002a26-e3cb-11e9-a452-53e1d70cdb01,0TJ57,Cutleaf Medick,9/21/2015,TWRF,1:11 PM,2:05 PM,Bluejay,Spring
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,24005136-e3cb-11e9-a453-cf258411afae,0SH93,Nicaraguan Fountaingrass,9/24/2015,T,3:19 PM,8:00 PM,Bayside,Summer
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,2400783c-e3cb-11e9-a454-af9ada70a8fb,0JPS3,Muck Sunflower,10/8/2015,TF,9:47 AM,8:00 PM,Hanover,Summer
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,24009f4c-e3cb-11e9-a455-9f3551648910,F08Z1,Cinquefoil,10/11/2015,M,1:58 PM,8:00 PM,Summit,Summer
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,2400c652-e3cb-11e9-a456-6f9cffa57954,0SN33,Sessilefruit Arrowhead,10/11/2015,MWF,7:26 AM,7:49 PM,Scofield,Summer
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,2104,Catillaria Lichen,10/12/2015,TFS,1:26 PM,2:29 PM,Sutherland,Fall
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,24013b6e-e3cb-11e9-a458-3ffee202a7bc,0TL37,Manyray Gumweed,10/16/2015,MWFS,6:58 PM,8:00 PM,Springs,Summer
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,2401627e-e3cb-11e9-a459-6b937003341c,3E0N3,Dot Lichen,10/18/2015,TW,3:56 PM,8:00 PM,Algoma,Fall
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,2401898e-e3cb-11e9-a45a-23659c6c95c7,0DNQX,River False Buttonweed,10/24/2015,M,9:47 AM,10:29 AM,Tony,Spring
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,2401d7a4-e3cb-11e9-a45b-bf56b4322858,0RHJ3,Valdivia Duckweed,10/24/2015,MS,5:19 PM,8:00 PM,High Crossing,Summer
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,2401feaa-e3cb-11e9-a45c-2328c385f688,0FBF0,Brothera Moss,10/29/2015,WR,11:37 AM,6:00 PM,Mayfield,Spring
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,240225b0-e3cb-11e9-a45d-13242514e334,2W6AX,Jaboticaba,10/31/2015,TRF,9:15 AM,12:51 PM,Fisk,Spring
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,240273c6-e3cb-11e9-a45e-9773469fe73c,00XH4,Peck's Beardtongue,11/27/2015,RS,10:37 AM,8:00 PM,Jackson,Fall
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,24029acc-e3cb-11e9-a45f-07b33ead673c,0YWB3,Fescue,12/10/2015,TWS,3:50 PM,8:00 PM,Bowman,Fall
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,2402c1dc-e3cb-11e9-a460-ffefc670849d,3120,Algonquin Woodfern,12/19/2015,MTS,2:55 PM,4:28 PM,Larry,Summer
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,9933,Moist Sowthistle,12/24/2015,F,1:20 PM,7:37 PM,Anniversary,Summer
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,240336f8-e3cb-11e9-a462-372732212b1a,0FWD0,Ceropegia,12/29/2015,RF,8:56 AM,10:52 AM,Gulseth,Fall
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,24035dfe-e3cb-11e9-a463-b77a0b87b643,30250,Douglas' Knotweed,12/31/2015,M,10:34 AM,4:27 PM,Pond,Spring
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,24038504-e3cb-11e9-a464-0b6dfa689a12,47000,Laurel Sumac,1/8/2016,TWF,9:33 AM,8:00 PM,Mayfield,Summer
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,2403ac14-e3cb-11e9-a465-2b9c06564ebb,07CG0,Searchlight Pricklypear,1/13/2016,R,10:04 AM,6:27 PM,Little Fleur,Summer
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,2403d31a-e3cb-11e9-a466-875b95539ba8,0JXN3,Longleaf Brake,1/25/2016,MS,8:13 AM,12:07 PM,Mifflin,Summer
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,2403fa2a-e3cb-11e9-a467-8b61035f2d98,0XQ20,Sonoma Lessingia,1/25/2016,MF,9:49 AM,10:45 AM,Merry,Summer
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,24042144-e3cb-11e9-a468-7bd2a30894df,09NL7,Upright Burhead,1/28/2016,FS,11:19 AM,8:00 PM,Heffernan,Summer
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,009R0,'hycrest',2/4/2016,WS,10:31 AM,2:10 PM,Buell,Spring
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,047J0,Chilean Waterwort,2/5/2016,WF,6:00 PM,8:00 PM,Petterle,Fall
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,2404bd7a-e3cb-11e9-a46b-abf884f49072,0JJSX,Goldeneye,2/6/2016,MTS,8:00 AM,9:08 AM,Maywood,Spring
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,24050b72-e3cb-11e9-a46c-2b022a41fe97,00BA4,Schweinitz's Dotted Lichen,2/23/2016,TWF,2:17 PM,4:40 PM,Grim,Fall
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,24053278-e3cb-11e9-a46d-b31b97231b9c,08B53,Canelo Lady's Tresses,3/4/2016,TWRS,4:22 PM,8:00 PM,Graedel,Spring
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,240580a2-e3cb-11e9-a46e-ab677f62609c,0Q910,Be Still Tree,3/6/2016,MTW,9:09 AM,12:56 PM,Northport,Fall
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,2405a82a-e3cb-11e9-a46f-db4a40758356,0G9B3,Chihuahuan Groundcherry,3/9/2016,TWRS,9:28 AM,8:00 PM,Schlimgen,Spring
+5d101b8c-e3cb-11e9-8fca-637b46847744,24061d3c-e3cb-11e9-a470-9f33415bb88d,03U04,Siberian Larch,3/16/2016,WS,11:32 AM,12:18 PM,Sauthoff,Summer
+5d104292-e3cb-11e9-8fcb-d768968cb93e,240643d4-e3cb-11e9-a471-03e56dd8483b,F08G5,Wai'anae Mountains False Lobelia,3/20/2016,TRS,10:36 AM,7:41 PM,Kipling,Spring
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,24066ada-e3cb-11e9-a472-6f3a5fb18c88,06SS3,Hawthorn,3/24/2016,MR,12:05 PM,4:14 PM,Sundown,Fall
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,24069258-e3cb-11e9-a473-d78ff025ac47,DU109,Sedge,4/4/2016,F,12:45 PM,3:24 PM,Florence,Fall
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,2406b968-e3cb-11e9-a474-abc1f5be99df,025K3,Brachythecium Moss,4/4/2016,TRS,4:38 PM,8:00 PM,Delladonna,Spring
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,2406e06e-e3cb-11e9-a475-6759ea0b39bc,03L34,Shasta Owl's-clover,4/10/2016,MRF,4:58 PM,8:00 PM,Milwaukee,Summer
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,2407077e-e3cb-11e9-a476-c38a2befbfd7,0UP80,Lewis' Heartleaf,4/15/2016,MTF,5:16 PM,8:00 PM,Brentwood,Fall
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,24072e84-e3cb-11e9-a477-532258583846,4903,Violet Wild Petunia,4/20/2016,MT,5:10 PM,8:00 PM,Dakota,Spring
+5d1153da-e3cb-11e9-8fd2-571e393a0849,24075594-e3cb-11e9-a478-c315d9a694fc,F0DZ1,Molokai Twinsorus Fern,4/30/2016,MTRFS,1:32 PM,4:54 PM,Sachs,Fall
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,D0074,Canada Toadflax,6/9/2016,MTRS,4:18 PM,8:00 PM,Jenna,Summer
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,2407a3aa-e3cb-11e9-a47a-2379191142cf,04HQ4,Garovagl's Rim Lichen,6/14/2016,S,3:02 PM,7:31 PM,Everett,Fall
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,03R20,Jelly Lichen,6/23/2016,TRF,5:54 PM,8:00 PM,Derek,Spring
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,23fef1d8-e3cb-11e9-a44a-0b17727bf406,047S0,White Wand Beardtongue,6/30/2016,R,3:11 PM,8:00 PM,Meadow Valley,Spring
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,F07H3,California Fiddleleaf,7/3/2016,RF,7:12 AM,1:18 PM,Marcy,Fall
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0MC04,Matricary Grapefern,7/5/2016,T,9:52 AM,8:00 PM,Stone Corner,Spring
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,23ff66fe-e3cb-11e9-a44d-dffb1564461a,B512Y,Cottonwood Springs Suncup,7/11/2016,MWRS,11:42 AM,7:27 PM,Utah,Spring
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,0LSG0,Tennessee Pondweed,7/15/2016,TWRFS,12:11 PM,4:41 PM,Holy Cross,Spring
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,0FBD3,Moss Phlox,7/16/2016,TR,9:55 AM,3:33 PM,Caliangt,Summer
+5d045d74-e3cb-11e9-8f78-33f15550d01b,23ffdc10-e3cb-11e9-a450-8b64523f1f94,DD013,Slender Mariposa Lily,7/17/2016,MFS,4:09 PM,8:00 PM,Holy Cross,Spring
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,24000320-e3cb-11e9-a451-d71a9b77b2ba,0PPH3,Maronea Lichen,7/21/2016,RF,9:33 AM,5:43 PM,Reindahl,Summer
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,24002a26-e3cb-11e9-a452-53e1d70cdb01,02UH0,Dwarf Wakerobin,9/8/2016,WRS,5:59 PM,8:10 PM,John Wall,Fall
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,24005136-e3cb-11e9-a453-cf258411afae,00B74,Black Grama,9/17/2016,MTRS,1:20 PM,7:20 PM,Northland,Spring
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,2400783c-e3cb-11e9-a454-af9ada70a8fb,04BH3,Blackrodwood,9/25/2016,MRF,3:54 PM,5:20 PM,Northland,Fall
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,24009f4c-e3cb-11e9-a455-9f3551648910,0VNH4,Indian's Dream,11/6/2016,WRF,9:45 AM,1:34 PM,Northridge,Spring
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,2400c652-e3cb-11e9-a456-6f9cffa57954,06U44,Black Flatsedge,11/8/2016,T,10:13 AM,10:33 AM,Main,Spring
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0SWLX,Australian Water-clover,11/11/2016,TW,11:40 AM,8:08 PM,Hintze,Spring
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,24013b6e-e3cb-11e9-a458-3ffee202a7bc,0NU80,Fayodia Lichen,12/7/2016,TWR,6:08 PM,8:00 PM,Buhler,Fall
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,2401627e-e3cb-11e9-a459-6b937003341c,08P03,Kauai Phyllostegia,12/7/2016,MR,1:47 PM,8:00 PM,Menomonie,Spring
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,2401898e-e3cb-11e9-a45a-23659c6c95c7,047T0,Bluebill,12/13/2016,MTWF,1:28 PM,5:48 PM,Glendale,Fall
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,2401d7a4-e3cb-11e9-a45b-bf56b4322858,0D1B0,Amur Privet,12/20/2016,MS,7:11 AM,1:06 PM,Waxwing,Spring
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,2401feaa-e3cb-11e9-a45c-2328c385f688,037H3,Birdbill Dayflower,12/30/2016,MWS,12:39 PM,8:00 PM,Eastwood,Spring
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,240225b0-e3cb-11e9-a45d-13242514e334,0FNF3,Purple Bittercress,1/15/2017,MWR,7:51 AM,12:13 PM,Rutledge,Spring
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,240273c6-e3cb-11e9-a45e-9773469fe73c,HZ83Z,Knowlton's Hophornbeam,1/18/2017,MWRS,10:23 AM,6:56 PM,Tennessee,Fall
+5d068004-e3cb-11e9-8f87-3f8117b8e247,24029acc-e3cb-11e9-a45f-07b33ead673c,0RU13,Palo De Ramon,1/18/2017,TS,7:04 AM,1:24 PM,Oak Valley,Summer
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,2402c1dc-e3cb-11e9-a460-ffefc670849d,0Q914,Yellow Licorice Weed,1/21/2017,MFS,7:08 AM,11:23 AM,Myrtle,Summer
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,041C0,Mantisalca,1/30/2017,MTWF,1:06 PM,8:00 PM,Donald,Summer
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,240336f8-e3cb-11e9-a462-372732212b1a,0PSC4,Beet,2/19/2017,TRF,4:39 PM,8:00 PM,Springs,Spring
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,24035dfe-e3cb-11e9-a463-b77a0b87b643,0SWC4,Rusby's Sedge,3/9/2017,MRS,1:13 PM,8:00 PM,Esch,Fall
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,24038504-e3cb-11e9-a464-0b6dfa689a12,0CB6X,Bitter Creek Phacelia,3/20/2017,S,12:53 PM,1:24 PM,Old Shore,Summer
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0PUK3,False Croton,3/24/2017,MWRS,5:34 PM,8:00 PM,Iowa,Fall
+5d079142-e3cb-11e9-8f8e-53e3cec57009,2403d31a-e3cb-11e9-a466-875b95539ba8,0KB40,White Ramping Fumitory,3/24/2017,TR,2:01 PM,8:00 PM,Shasta,Summer
+5d07b852-e3cb-11e9-8f8f-872a7a270474,2403fa2a-e3cb-11e9-a467-8b61035f2d98,0LWYX,Star Coccocarpia Lichen,3/26/2017,MR,12:10 PM,8:00 PM,Maryland,Fall
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,24042144-e3cb-11e9-a468-7bd2a30894df,04NA3,Grisebach's Swallow-wort,4/2/2017,R,8:25 AM,6:40 PM,Luster,Fall
+5d080672-e3cb-11e9-8f91-9f239e176814,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,2W05X,White Penstemon,4/8/2017,RFS,12:52 PM,4:19 PM,Hauk,Summer
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,0PPP4,Shrubland Nehe,4/8/2017,S,6:31 PM,8:00 PM,Grim,Summer
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,2404bd7a-e3cb-11e9-a46b-abf884f49072,041K4,Palamocladium Moss,4/20/2017,TR,2:30 PM,8:00 PM,Mariners Cove,Spring
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,24050b72-e3cb-11e9-a46c-2b022a41fe97,04QC4,Camasey Terciopelo,4/24/2017,WR,5:56 PM,8:00 PM,Karstens,Summer
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,24053278-e3cb-11e9-a46d-b31b97231b9c,3160,Maui Labordia,4/26/2017,FS,3:57 PM,8:00 PM,Schurz,Spring
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,240580a2-e3cb-11e9-a46e-ab677f62609c,05U10,Vanillaleaf,4/30/2017,WR,6:41 PM,8:00 PM,Del Mar,Spring
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,2405a82a-e3cb-11e9-a46f-db4a40758356,4A00X,Netbush,5/5/2017,MR,10:35 AM,11:16 AM,Debra,Fall
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,24061d3c-e3cb-11e9-a470-9f33415bb88d,DP065,Nuttall's Sensitive-briar,5/8/2017,MW,1:22 PM,8:00 PM,Gulseth,Fall
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,240643d4-e3cb-11e9-a471-03e56dd8483b,0KQW0,African Teak,5/10/2017,TS,5:45 PM,8:00 PM,Duke,Spring
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,24066ada-e3cb-11e9-a472-6f3a5fb18c88,DP085,Payson's Cryptantha,5/11/2017,TWS,12:40 PM,8:00 PM,Dayton,Spring
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,24069258-e3cb-11e9-a473-d78ff025ac47,037K4,Quillwort,5/21/2017,WFS,1:25 PM,5:24 PM,Ramsey,Fall
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,2406b968-e3cb-11e9-a474-abc1f5be99df,0DQL4,Spreading Cotoneaster,5/22/2017,MWS,3:29 PM,8:00 PM,Westerfield,Summer
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,2406e06e-e3cb-11e9-a475-6759ea0b39bc,06V60,Creeping Blueberry,6/13/2017,TR,3:05 PM,8:00 PM,Springs,Fall
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,2407077e-e3cb-11e9-a476-c38a2befbfd7,00C94,Common Juniper,6/19/2017,TF,12:04 PM,4:34 PM,2nd,Fall
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,24072e84-e3cb-11e9-a477-532258583846,04LT4,Ewan's Cinquefoil,6/19/2017,R,11:08 AM,8:00 PM,Evergreen,Spring
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,24075594-e3cb-11e9-a478-c315d9a694fc,0KUQ0,Corn,6/28/2017,S,10:47 AM,8:00 PM,Kennedy,Summer
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0SRA0,Cosmos,7/1/2017,FS,8:31 AM,12:13 PM,Thompson,Summer
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,2407a3aa-e3cb-11e9-a47a-2379191142cf,3E0J7,Coastal Plain Nailwort,7/12/2017,MT,6:15 PM,8:00 PM,Sutteridge,Spring
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,0DHA8,Histiopteris,7/13/2017,F,6:38 PM,8:00 PM,Mendota,Summer
+5d0ac524-e3cb-11e9-8fa4-539e26619810,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0TWD8,Mock Buckthorn,7/14/2017,TWR,12:24 PM,8:00 PM,5th,Summer
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,163,Fritillary,7/15/2017,MWF,5:16 PM,8:00 PM,Larry,Fall
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0J913,Purplespot Gilia,7/19/2017,RS,1:32 PM,8:00 PM,Lindbergh,Spring
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,23ff66fe-e3cb-11e9-a44d-dffb1564461a,CP1ZY,Widowscross,8/4/2017,S,7:56 AM,11:19 AM,Buena Vista,Summer
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,BP2B1,Shriver's Purple Fringed Orchid,8/20/2017,WRS,11:58 AM,6:27 PM,Melrose,Summer
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,0QWS3,Pomegranate,8/21/2017,MTWF,7:20 AM,7:59 PM,Colorado,Spring
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,23ffdc10-e3cb-11e9-a450-8b64523f1f94,0PSR0,Sponge Gourd,8/25/2017,MS,12:19 PM,12:26 PM,Monterey,Fall
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,24000320-e3cb-11e9-a451-d71a9b77b2ba,F00Z3,Oneflower Flatsedge,9/12/2017,MTW,4:28 PM,8:00 PM,Blue Bill Park,Spring
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,24002a26-e3cb-11e9-a452-53e1d70cdb01,5A093,Honeysuckle,9/12/2017,RFS,1:16 PM,8:00 PM,Dennis,Summer
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,24005136-e3cb-11e9-a453-cf258411afae,0SGJ3,Fig,9/13/2017,MTR,12:08 PM,2:54 PM,Starling,Summer
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,2400783c-e3cb-11e9-a454-af9ada70a8fb,04CF0,Stinking Goosefoot,10/6/2017,MT,11:58 AM,7:53 PM,Haas,Spring
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,24009f4c-e3cb-11e9-a455-9f3551648910,D9Y67,California Barley,10/6/2017,MT,3:58 PM,8:00 PM,Sunfield,Summer
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,2400c652-e3cb-11e9-a456-6f9cffa57954,031N0,Tufted Wheatgrass,10/12/2017,WS,1:30 PM,8:00 PM,Burrows,Spring
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0UU54,Annual Fimbry,10/17/2017,F,2:00 PM,5:32 PM,Dovetail,Summer
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,24013b6e-e3cb-11e9-a458-3ffee202a7bc,00XP0,Pearlbrush,10/19/2017,MTS,12:35 PM,8:00 PM,Glendale,Spring
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,2401627e-e3cb-11e9-a459-6b937003341c,0RCV0,Fishtail Swordfern,11/1/2017,MWF,12:12 PM,8:00 PM,Anthes,Fall
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,2401898e-e3cb-11e9-a45a-23659c6c95c7,BQ2F0,Dunchi Fiber,11/7/2017,RS,3:09 PM,8:00 PM,Steensland,Summer
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,2401d7a4-e3cb-11e9-a45b-bf56b4322858,0F9G4,Honohono,11/21/2017,TRFS,6:24 PM,8:00 PM,Dunning,Fall
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,2401feaa-e3cb-11e9-a45c-2328c385f688,0X6P0,Fraser's Photinia,11/29/2017,TWRF,11:53 AM,12:48 PM,Mariners Cove,Spring
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,240225b0-e3cb-11e9-a45d-13242514e334,0TH54,Howell's Reedgrass,12/9/2017,MWR,8:23 AM,5:19 PM,Mayfield,Summer
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,240273c6-e3cb-11e9-a45e-9773469fe73c,045N3,Wooton's Sandpuffs,12/11/2017,F,12:31 PM,8:00 PM,Butternut,Spring
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,24029acc-e3cb-11e9-a45f-07b33ead673c,F01G5,Cercidospora Lichen,12/29/2017,F,10:45 AM,8:00 PM,Heath,Fall
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,2402c1dc-e3cb-11e9-a460-ffefc670849d,0D1B0,Horrid Herrickia,12/30/2017,R,3:43 PM,8:00 PM,Bluejay,Spring
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,0YPB3,Heimia,1/8/2018,MFS,3:47 PM,7:02 PM,Continental,Summer
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,240336f8-e3cb-11e9-a462-372732212b1a,0PHR3,Puerto Rico Ridgerunner,1/12/2018,MTWS,3:53 PM,8:00 PM,Autumn Leaf,Fall
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,24035dfe-e3cb-11e9-a463-b77a0b87b643,0VB13,Great Chickweed,1/12/2018,MWF,10:40 AM,12:42 PM,Truax,Summer
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,24038504-e3cb-11e9-a464-0b6dfa689a12,0PWQ3,El Paso Blazingstar,1/14/2018,MWRS,5:04 PM,7:31 PM,Sommers,Fall
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0VQ53,Cardinal Catchfly,1/14/2018,TW,4:16 PM,7:05 PM,Declaration,Spring
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,2403d31a-e3cb-11e9-a466-875b95539ba8,02HS4,Evening Primrose,1/15/2018,RS,7:46 AM,11:19 AM,Bluestem,Fall
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,2403fa2a-e3cb-11e9-a467-8b61035f2d98,4A0B8,Algarrobo Negro,1/15/2018,WRFS,9:12 AM,4:53 PM,Anhalt,Summer
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,24042144-e3cb-11e9-a468-7bd2a30894df,0RNS3,Desert Deervetch,1/17/2018,F,4:22 PM,6:52 PM,Derek,Fall
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,00W64,Everglade Key Sandmat,1/24/2018,WRS,4:52 PM,8:00 PM,Longview,Spring
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,09R2X,Jame's Rubberweed,1/29/2018,M,3:58 PM,8:00 PM,Memorial,Spring
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,2404bd7a-e3cb-11e9-a46b-abf884f49072,0RGL0,Garcinia,2/8/2018,MT,10:42 AM,6:27 PM,Fulton,Spring
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,24050b72-e3cb-11e9-a46c-2b022a41fe97,0PWQ0,Bog Alkaligrass,2/14/2018,MTRS,12:03 PM,3:40 PM,Fair Oaks,Fall
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,24053278-e3cb-11e9-a46d-b31b97231b9c,2W3HX,Canadian Hawkweed,2/15/2018,F,3:24 PM,4:06 PM,Oak Valley,Spring
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,240580a2-e3cb-11e9-a46e-ab677f62609c,F00ZK,Metaneckera Moss,2/16/2018,MTWR,12:45 PM,5:51 PM,Forest,Fall
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,2405a82a-e3cb-11e9-a46f-db4a40758356,021P4,Matweed,2/21/2018,W,9:27 AM,6:10 PM,Dixon,Fall
+5d101b8c-e3cb-11e9-8fca-637b46847744,24061d3c-e3cb-11e9-a470-9f33415bb88d,08CK3,Whisperingbells,3/2/2018,TWS,8:48 AM,1:26 PM,Everett,Summer
+5d104292-e3cb-11e9-8fcb-d768968cb93e,240643d4-e3cb-11e9-a471-03e56dd8483b,0PP83,Bolander's Mock Dandelion,3/16/2018,WR,1:44 PM,8:00 PM,Warrior,Fall
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,24066ada-e3cb-11e9-a472-6f3a5fb18c88,2W01X,Creeping Barberry,3/23/2018,MWF,12:34 PM,8:00 PM,Forster,Summer
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,24069258-e3cb-11e9-a473-d78ff025ac47,02RT4,Horn-leaved Takakia,4/5/2018,MWR,11:03 AM,6:13 PM,Lawn,Fall
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,2406b968-e3cb-11e9-a474-abc1f5be99df,04V14,Flatwoods St. Johnswort,4/6/2018,TWRF,9:34 AM,10:45 AM,Melrose,Spring
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,2406e06e-e3cb-11e9-a475-6759ea0b39bc,0V1P0,Hairy Skullcap,4/10/2018,WRS,10:00 AM,10:25 AM,Ludington,Summer
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,2407077e-e3cb-11e9-a476-c38a2befbfd7,0D947,Bloomer's Aster,4/15/2018,MT,12:36 PM,7:50 PM,Armistice,Fall
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,24072e84-e3cb-11e9-a477-532258583846,DW129,Peirson's Pincushion,4/28/2018,T,9:05 AM,8:00 PM,Sommers,Summer
+5d1153da-e3cb-11e9-8fd2-571e393a0849,24075594-e3cb-11e9-a478-c315d9a694fc,0WPN4,Jaumea,5/2/2018,MF,3:52 PM,5:03 PM,Lake View,Fall
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,090K0,Nevada Cryptantha,5/7/2018,S,12:21 PM,4:20 PM,Oneill,Summer
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,2407a3aa-e3cb-11e9-a47a-2379191142cf,0CB53,Sandia Mountain Alumroot,5/10/2018,W,2:05 PM,3:38 PM,Anhalt,Fall
+5d02b000-e3cb-11e9-8f71-e7217d9f6d9f,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,F00ZD,Crossidium Moss,5/12/2018,MTWRS,2:30 PM,6:44 PM,Southridge,Fall
+5d034c2c-e3cb-11e9-8f72-eb1c5478bad2,23fef1d8-e3cb-11e9-a44a-0b17727bf406,B902Z,Dense False Gilyflower,5/13/2018,MFS,5:51 PM,7:39 PM,Norway Maple,Summer
+5d039a56-e3cb-11e9-8f73-eb5fcb1b3bd2,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,0DTJ0,Avocado,5/21/2018,MR,4:58 PM,7:56 PM,Kenwood,Summer
+5d03c15c-e3cb-11e9-8f74-a7f21575bf37,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,0DN43,Bunched Arrowhead,5/23/2018,TWF,2:07 PM,4:15 PM,Nelson,Spring
+5d03e858-e3cb-11e9-8f75-5bfc29bf5cb3,23ff66fe-e3cb-11e9-a44d-dffb1564461a,0D9S4,Sweet Mountain Grape,5/25/2018,T,4:13 PM,5:33 PM,Moose,Fall
+5d040f68-e3cb-11e9-8f76-7b2e35aaa8b0,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,07PLX,Goodding's Fameflower,5/27/2018,S,8:03 AM,1:23 PM,Donald,Summer
+5d04366e-e3cb-11e9-8f77-f7002654a8cc,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,051B0,Watermelon Nightshade,5/28/2018,MRS,12:07 PM,8:00 PM,Mandrake,Fall
+5d045d74-e3cb-11e9-8f78-33f15550d01b,23ffdc10-e3cb-11e9-a450-8b64523f1f94,0VTQ4,Torrey's Milkvetch,6/2/2018,MFS,9:19 AM,8:00 PM,Dryden,Fall
+5d048484-e3cb-11e9-8f79-63a2ad75bda8,24000320-e3cb-11e9-a451-d71a9b77b2ba,0NQT0,Fiveneedle Pricklyleaf,6/7/2018,MT,1:39 PM,6:04 PM,Raven,Spring
+5d04ab8a-e3cb-11e9-8f7a-7727694d46df,24002a26-e3cb-11e9-a452-53e1d70cdb01,0RHA4,Deformed Beard Lichen,6/13/2018,MWR,12:46 PM,12:52 PM,Melrose,Fall
+5d04d29a-e3cb-11e9-8f7b-0364ed1591ad,24005136-e3cb-11e9-a453-cf258411afae,9970,Flatface Calicoflower,6/16/2018,MTWFS,7:09 AM,6:21 PM,Canary,Fall
+5d04f9a0-e3cb-11e9-8f7c-e3f49cc029df,2400783c-e3cb-11e9-a454-af9ada70a8fb,0RUC3,Canoparmelia Lichen,6/23/2018,W,6:21 PM,8:00 PM,Lawn,Fall
+5d0520a6-e3cb-11e9-8f7d-d3fbfa19f57b,24009f4c-e3cb-11e9-a455-9f3551648910,3E1P7,Arctic Sweet Coltsfoot,6/27/2018,MRFS,10:40 AM,1:45 PM,Bay,Fall
+5d0547ac-e3cb-11e9-8f7e-c7ce45b3f416,2400c652-e3cb-11e9-a456-6f9cffa57954,3753,Littleleaf Leadtree,7/13/2018,TRF,6:01 PM,8:00 PM,Cottonwood,Fall
+5d056ebc-e3cb-11e9-8f7f-33bfed7e03c3,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0QPG0,Atlantic Poison Oak,7/14/2018,WRFS,3:50 PM,8:00 PM,Colorado,Fall
+5d0595c2-e3cb-11e9-8f80-ffaf67a53f56,24013b6e-e3cb-11e9-a458-3ffee202a7bc,0Q520,Philippine Violet,7/17/2018,WRFS,2:32 PM,8:00 PM,Fisk,Fall
+5d05bcd2-e3cb-11e9-8f81-4f28365cd8d1,2401627e-e3cb-11e9-a459-6b937003341c,0RHX3,Kobuk Locoweed,7/20/2018,MTFS,2:46 PM,5:10 PM,Lillian,Spring
+5d05bcd3-e3cb-11e9-8f82-abe172a24141,2401898e-e3cb-11e9-a45a-23659c6c95c7,01B,Schaffner's Bahia,7/22/2018,MTF,5:18 PM,8:00 PM,Valley Edge,Summer
+5d05e3d8-e3cb-11e9-8f83-7736cb6330b2,2401d7a4-e3cb-11e9-a45b-bf56b4322858,04U10,Chamisso's Willow,7/27/2018,RF,6:50 PM,8:00 PM,Fairview,Fall
+5d060ae8-e3cb-11e9-8f84-1b4088fa43ad,2401feaa-e3cb-11e9-a45c-2328c385f688,04SP0,St. Thomas Pricklyash,8/1/2018,WF,11:15 AM,4:51 PM,Oriole,Spring
+5d0631ee-e3cb-11e9-8f85-4f38fde26207,240225b0-e3cb-11e9-a45d-13242514e334,0S953,Hawai'i Vetch,8/4/2018,MTRS,6:49 PM,8:00 PM,West,Spring
+5d0658fe-e3cb-11e9-8f86-db4a1425be13,240273c6-e3cb-11e9-a45e-9773469fe73c,0QP24,Lambstongue Ragwort,8/15/2018,TS,6:48 PM,8:06 PM,Morrow,Spring
+5d068004-e3cb-11e9-8f87-3f8117b8e247,24029acc-e3cb-11e9-a45f-07b33ead673c,DW16B,Whitebox,8/16/2018,MF,10:59 AM,1:17 PM,Sommers,Fall
+5d06a70a-e3cb-11e9-8f88-5b88e26cf645,2402c1dc-e3cb-11e9-a460-ffefc670849d,4A03X,Wood Bluegrass,8/18/2018,M,2:07 PM,7:18 PM,Becker,Spring
+5d06ce10-e3cb-11e9-8f89-930e9562b7e0,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,9940,Bract Milkweed,8/27/2018,WRFS,3:19 PM,6:28 PM,Carberry,Summer
+5d06f520-e3cb-11e9-8f8a-53a5bc43daa5,240336f8-e3cb-11e9-a462-372732212b1a,041D0,Kaibab Suncup,8/28/2018,TF,1:05 PM,8:00 PM,Canary,Fall
+5d071c26-e3cb-11e9-8f8b-0b8eb6905f11,24035dfe-e3cb-11e9-a463-b77a0b87b643,047N3,Pink Azalea,8/28/2018,MFS,2:23 PM,8:00 PM,Paget,Spring
+5d07432c-e3cb-11e9-8f8c-df7fc77d3e54,24038504-e3cb-11e9-a464-0b6dfa689a12,1914,Donner Lake Lupine,8/28/2018,MWS,7:33 AM,3:57 PM,Cottonwood,Summer
+5d076a3c-e3cb-11e9-8f8d-4b3fae2598d4,2403ac14-e3cb-11e9-a465-2b9c06564ebb,0FUD0,Sharp-tooth Buckthorn,8/30/2018,MWFS,11:57 AM,8:00 PM,Mockingbird,Summer
+5d079142-e3cb-11e9-8f8e-53e3cec57009,2403d31a-e3cb-11e9-a466-875b95539ba8,0W9D0,Cyprus-vetch,9/2/2018,TWF,8:04 AM,8:24 AM,American Ash,Fall
+5d07b852-e3cb-11e9-8f8f-872a7a270474,2403fa2a-e3cb-11e9-a467-8b61035f2d98,6A150,Mulga,9/19/2018,F,8:56 AM,6:51 PM,Hagan,Spring
+5d07df6c-e3cb-11e9-8f90-93046103d5b7,24042144-e3cb-11e9-a468-7bd2a30894df,CW561,Redbay,9/21/2018,TF,10:15 AM,5:12 PM,Lyons,Spring
+5d080672-e3cb-11e9-8f91-9f239e176814,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,0CRB0,Brownish Beaksedge,9/24/2018,W,5:52 PM,6:47 PM,Daystar,Summer
+5d082d78-e3cb-11e9-8f92-1f9936a581d3,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,0FPD7,Curl-leaf Mountain Mahogany,10/15/2018,MT,8:03 AM,6:52 PM,Cardinal,Fall
+5d08547e-e3cb-11e9-8f93-431bf4cedc45,2404bd7a-e3cb-11e9-a46b-abf884f49072,30240,White Clouds Milkvetch,10/20/2018,FS,8:58 AM,11:58 AM,Eliot,Summer
+5d087b84-e3cb-11e9-8f94-1b7d27388e44,24050b72-e3cb-11e9-a46c-2b022a41fe97,02WG4,Football Fruit,10/21/2018,WRS,1:11 PM,8:00 PM,Northfield,Summer
+5d08a294-e3cb-11e9-8f95-fbb16e5fdcda,24053278-e3cb-11e9-a46d-b31b97231b9c,5934,Slenderbeak Sedge,11/3/2018,TWFS,9:38 AM,4:55 PM,Cottonwood,Fall
+5d08c9c2-e3cb-11e9-8f96-47cdf3c81977,240580a2-e3cb-11e9-a46e-ab677f62609c,0CWS7,Candle Snuffer Moss,11/5/2018,W,7:40 AM,11:28 AM,Cascade,Fall
+5d08c9c3-e3cb-11e9-8f97-03e297ff02d1,2405a82a-e3cb-11e9-a46f-db4a40758356,0DUN4,Stalked Popcornflower,11/5/2018,S,2:43 PM,7:30 PM,Tony,Spring
+5d08f0aa-e3cb-11e9-8f98-bbb7edf9ae2e,24061d3c-e3cb-11e9-a470-9f33415bb88d,04UF0,Heartleaf Foamflower,11/8/2018,MWR,4:50 PM,7:16 PM,Morrow,Fall
+5d0917b0-e3cb-11e9-8f99-bb3f6a111dc9,240643d4-e3cb-11e9-a471-03e56dd8483b,2W1BX,Slender Yellow Woodsorrel,11/9/2018,MTWF,1:30 PM,2:06 PM,Wayridge,Summer
+5d093eb6-e3cb-11e9-8f9a-078bad2dbc62,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0HWT3,Tallul Campylopus Moss,11/14/2018,MR,5:50 PM,8:00 PM,North,Spring
+5d0965c6-e3cb-11e9-8f9b-c7f287c38493,24069258-e3cb-11e9-a473-d78ff025ac47,0U758,Schaereria Lichen,11/23/2018,T,10:50 AM,5:13 PM,Emmet,Fall
+5d098ccc-e3cb-11e9-8f9c-337a00a74149,2406b968-e3cb-11e9-a474-abc1f5be99df,04B63,Palmer's Groundcherry,11/26/2018,MTR,4:51 PM,4:55 PM,Katie,Fall
+5d09b3dc-e3cb-11e9-8f9d-d3a975b5a90f,2406e06e-e3cb-11e9-a475-6759ea0b39bc,061C0,Limestone Swamp Bedstraw,11/26/2018,R,1:59 PM,8:00 PM,Thackeray,Summer
+5d09daec-e3cb-11e9-8f9e-6f67a23c05c9,2407077e-e3cb-11e9-a476-c38a2befbfd7,0RUU4,Aster,12/1/2018,TF,4:36 PM,8:00 PM,Northridge,Fall
+5d0a01f2-e3cb-11e9-8f9f-43140f3ea106,24072e84-e3cb-11e9-a477-532258583846,05UY0,Corkystem Passionflower,12/11/2018,F,10:23 AM,1:07 PM,Florence,Summer
+5d0a28f8-e3cb-11e9-8fa0-077efd7e6c0d,24075594-e3cb-11e9-a478-c315d9a694fc,0B9C0,Melaspilea Lichen,12/18/2018,M,7:56 AM,4:04 PM,Grim,Summer
+5d0a5008-e3cb-11e9-8fa1-97c1c9ec4a35,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0UMG4,Woolly Seablite,1/8/2019,WR,1:32 PM,8:00 PM,Northland,Summer
+5d0a770e-e3cb-11e9-8fa2-f7eeb7f8231c,2407a3aa-e3cb-11e9-a47a-2379191142cf,04LH4,Pacific Rim Lichen,1/13/2019,MFS,3:54 PM,4:28 PM,Surrey,Fall
+5d0a9e1e-e3cb-11e9-8fa3-5f8db0242174,23fe2ea6-e3cb-11e9-a449-43ae922fe9d9,2W50X,Hairy New York Aster,1/13/2019,WRS,5:00 PM,8:00 PM,Hollow Ridge,Spring
+5d0ac524-e3cb-11e9-8fa4-539e26619810,23fef1d8-e3cb-11e9-a44a-0b17727bf406,0QSH4,Stereophyllum Moss,1/14/2019,MRF,4:56 PM,8:00 PM,Evergreen,Fall
+5d0aec2a-e3cb-11e9-8fa5-ffb012ba04a5,23ff18e8-e3cb-11e9-a44b-fb564150cc8a,0QSH4,Cyrto-hypnum Moss,1/23/2019,TWRS,9:35 AM,1:40 PM,Fordem,Fall
+5d0b1330-e3cb-11e9-8fa6-97127b4e94be,23ff3fe4-e3cb-11e9-a44c-2f0b03e8de8b,02HP4,Brugmansia,2/5/2019,TWR,4:10 PM,6:33 PM,Esch,Fall
+5d0b3a40-e3cb-11e9-8fa7-0bd5174f581c,23ff66fe-e3cb-11e9-a44d-dffb1564461a,047R0,Narrowpod Sensitive Pea,2/5/2019,MS,12:42 PM,6:37 PM,Brown,Spring
+5d0b6146-e3cb-11e9-8fa8-afd9ffe433d7,23ff8dfa-e3cb-11e9-a44e-9b2165cef09b,0G5L3,Spotted Knapweed,2/8/2019,WRFS,3:57 PM,8:00 PM,Briar Crest,Summer
+5d0b8856-e3cb-11e9-8fa9-93ed59c5c24f,23ffb500-e3cb-11e9-a44f-8b4795c9ce4a,0W9F3,Timber Oatgrass,2/9/2019,F,4:44 PM,8:00 PM,Bayside,Spring
+5d0b8857-e3cb-11e9-8faa-5f02feb3578f,23ffdc10-e3cb-11e9-a450-8b64523f1f94,07TH0,Berlandier's Trumpets,2/12/2019,MF,10:28 AM,6:55 PM,Lawn,Spring
+5d0baf5c-e3cb-11e9-8fab-475d4bd1e50d,24000320-e3cb-11e9-a451-d71a9b77b2ba,0RNQX,Koolau Range Lobelia,2/12/2019,MTRF,2:50 PM,8:00 PM,Dovetail,Spring
+5d0bd662-e3cb-11e9-8fac-7fb7a631a16c,24002a26-e3cb-11e9-a452-53e1d70cdb01,0QS94,Tufted Orchid,2/15/2019,W,1:18 PM,8:00 PM,Fieldstone,Fall
+5d0bfd72-e3cb-11e9-8fad-4780d9807328,24005136-e3cb-11e9-a453-cf258411afae,00BD4,Plantain Goldenweed,2/20/2019,T,10:48 AM,12:48 PM,Eastwood,Fall
+5d0c2478-e3cb-11e9-8fae-c720e032d9b1,2400783c-e3cb-11e9-a454-af9ada70a8fb,0BU10,Whitewhorl Lupine,2/21/2019,MT,2:34 PM,6:19 PM,Hansons,Spring
+5d0c4b88-e3cb-11e9-8faf-fbb2139a77cb,24009f4c-e3cb-11e9-a455-9f3551648910,03HY3,Small Fescue,3/1/2019,MTR,2:54 PM,7:13 PM,Almo,Fall
+5d0c728e-e3cb-11e9-8fb0-1b07a600cba2,2400c652-e3cb-11e9-a456-6f9cffa57954,DWY,Prairie Rosinweed,3/1/2019,TWFS,3:26 PM,8:00 PM,Meadow Ridge,Summer
+5d0c999e-e3cb-11e9-8fb1-0f0d2ee4cab4,2400ed58-e3cb-11e9-a457-6bf0b613dbe2,0G9G4,Jalap,3/12/2019,T,9:38 AM,1:41 PM,6th,Fall
+5d0cc0a4-e3cb-11e9-8fb2-2b4d69a60060,24013b6e-e3cb-11e9-a458-3ffee202a7bc,0U2DX,Brachythecium Moss,3/12/2019,TS,1:46 PM,8:00 PM,Truax,Summer
+5d0ce7b4-e3cb-11e9-8fb3-5bef6e2fdad8,2401627e-e3cb-11e9-a459-6b937003341c,04H00,Snake River Cryptantha,3/18/2019,F,10:10 AM,12:15 PM,Columbus,Fall
+5d0d0ece-e3cb-11e9-8fb4-1fd62e5b592d,2401898e-e3cb-11e9-a45a-23659c6c95c7,09WH7,Epling's Monardella,3/20/2019,MT,4:55 PM,8:00 PM,Chive,Fall
+5d0d35b6-e3cb-11e9-8fb5-0f2980ff9fb9,2401d7a4-e3cb-11e9-a45b-bf56b4322858,0DU47,Clustered Fanpetals,3/20/2019,R,4:41 PM,7:29 PM,Kings,Summer
+5d0d5cd0-e3cb-11e9-8fb6-d7244b342906,2401feaa-e3cb-11e9-a45c-2328c385f688,0DQM4,Gentner's Fritillary,3/21/2019,MTW,4:43 PM,8:00 PM,Mesta,Summer
+5d0d83e0-e3cb-11e9-8fb7-7b348e8eb50c,240225b0-e3cb-11e9-a45d-13242514e334,3120,Blue Cohosh,3/27/2019,M,2:28 PM,6:57 PM,Leroy,Spring
+5d0d83e1-e3cb-11e9-8fb8-c3e4fb046c88,240273c6-e3cb-11e9-a45e-9773469fe73c,0CR40,Ravenfoot Sedge,4/8/2019,T,9:59 AM,10:47 AM,Gale,Summer
+5d0daae6-e3cb-11e9-8fb9-9b4d8418a3d7,24029acc-e3cb-11e9-a45f-07b33ead673c,09QB4,Horungia,4/16/2019,WS,1:43 PM,8:00 PM,Dixon,Fall
+5d0dd1ec-e3cb-11e9-8fba-7b6e047ddc74,2402c1dc-e3cb-11e9-a460-ffefc670849d,0PUF3,Sierra Brookfoam,4/24/2019,F,7:13 AM,10:16 AM,Raven,Spring
+5d0df8fc-e3cb-11e9-8fbb-2baf0a0e472f,2402e8e2-e3cb-11e9-a461-a3fd5a398fb8,05R74,Pacific Alpine Wormwood,4/27/2019,MTR,7:30 AM,11:29 AM,Buhler,Summer
+5d0e2002-e3cb-11e9-8fbc-a3811336bef1,240336f8-e3cb-11e9-a462-372732212b1a,0Y9H3,Decumbent Crowngrass,5/13/2019,T,8:42 AM,5:54 PM,Sherman,Fall
+5d0e4708-e3cb-11e9-8fbd-930334d703a3,24035dfe-e3cb-11e9-a463-b77a0b87b643,0TV60,Pawale,5/17/2019,R,4:29 PM,8:00 PM,Nelson,Spring
+5d0e6e18-e3cb-11e9-8fbe-4bb39f48a2cb,24038504-e3cb-11e9-a464-0b6dfa689a12,0902X,Yellow Colicroot,5/20/2019,R,9:42 AM,2:20 PM,New Castle,Summer
+5d0e9528-e3cb-11e9-8fbf-ef94c34d78bc,2403ac14-e3cb-11e9-a465-2b9c06564ebb,037P0,Perilla,5/28/2019,F,3:18 PM,6:01 PM,Vidon,Summer
+5d0ebc2e-e3cb-11e9-8fc0-f76143467562,2403d31a-e3cb-11e9-a466-875b95539ba8,05SF3,Waterhyssop,5/31/2019,RS,3:31 PM,7:38 PM,Northland,Spring
+5d0ee334-e3cb-11e9-8fc1-0300057e4bef,2403fa2a-e3cb-11e9-a467-8b61035f2d98,0D1H4,Nectouxia,6/7/2019,M,10:56 AM,3:18 PM,2nd,Fall
+5d0f0a44-e3cb-11e9-8fc2-c37ca930d31b,24042144-e3cb-11e9-a468-7bd2a30894df,021R0,Kittitas Larkspur,6/7/2019,MTW,4:20 PM,8:00 PM,Donald,Spring
+5d0f314a-e3cb-11e9-8fc3-1f04f108412a,24046f6e-e3cb-11e9-a469-a7a5d48ceb2f,BU4CZ,Strict Primrose,6/8/2019,MTW,9:27 AM,4:59 PM,Elgar,Fall
+5d0f585a-e3cb-11e9-8fc4-3f3b95a60deb,2404966a-e3cb-11e9-a46a-eb9b2c0fb721,04CD4,San Bernardino Mountain Alumroot,6/11/2019,TW,1:10 PM,8:00 PM,Namekagon,Summer
+5d0f7f60-e3cb-11e9-8fc5-c738b8b0d1eb,2404bd7a-e3cb-11e9-a46b-abf884f49072,0DW03,Pacific Yerba Santa,6/19/2019,M,10:42 AM,6:46 PM,Darwin,Spring
+5d0fa666-e3cb-11e9-8fc6-43cb523377b3,24050b72-e3cb-11e9-a46c-2b022a41fe97,0QC33,Broadleaf Lupine,6/26/2019,T,8:38 AM,5:49 PM,Kingsford,Summer
+5d0fa667-e3cb-11e9-8fc7-ef69b9c46515,24053278-e3cb-11e9-a46d-b31b97231b9c,039Y4,Protoblastenia Lichen,6/28/2019,TRS,1:36 PM,5:38 PM,Brown,Fall
+5d0fcd6c-e3cb-11e9-8fc8-37ada49bb2e5,240580a2-e3cb-11e9-a46e-ab677f62609c,0W0M4,Echinoplaca Lichen,7/2/2019,MT,12:04 PM,3:58 PM,Schlimgen,Summer
+5d0ff47c-e3cb-11e9-8fc9-73352556a132,2405a82a-e3cb-11e9-a46f-db4a40758356,HZ90Z,Los Pinitos Dodder,7/6/2019,F,5:03 PM,8:00 PM,Prentice,Spring
+5d101b8c-e3cb-11e9-8fca-637b46847744,24061d3c-e3cb-11e9-a470-9f33415bb88d,07L84,Bird's-eye Gilia,7/13/2019,MF,6:55 PM,8:00 PM,Jenna,Fall
+5d104292-e3cb-11e9-8fcb-d768968cb93e,240643d4-e3cb-11e9-a471-03e56dd8483b,0P9F3,Hueso Prieto,7/21/2019,MW,6:38 PM,8:00 PM,Tennyson,Spring
+5d106998-e3cb-11e9-8fcc-5ba356b30c66,24066ada-e3cb-11e9-a472-6f3a5fb18c88,0PSC3,Flax,8/9/2019,MTFS,8:44 AM,8:07 PM,Esch,Summer
+5d1090a8-e3cb-11e9-8fcd-33e2f3e387fb,24069258-e3cb-11e9-a473-d78ff025ac47,0QSH4,Trans-pecos Ayenia,8/19/2019,MW,12:46 PM,8:11 PM,Manufacturers,Summer
+5d10b7ae-e3cb-11e9-8fce-53b5b32b6033,2406b968-e3cb-11e9-a474-abc1f5be99df,4A033,Wells' Manzanita,8/26/2019,MTWS,6:00 PM,8:00 PM,Mallory,Spring
+5d10debe-e3cb-11e9-8fcf-dbc94a1a7dc4,2406e06e-e3cb-11e9-a475-6759ea0b39bc,0PP30,Nootka Alkaligrass,8/30/2019,MT,7:26 AM,9:26 AM,Dawn,Spring
+5d1105ce-e3cb-11e9-8fd0-a7b139bc13ed,2407077e-e3cb-11e9-a476-c38a2befbfd7,04SC3,Vernal Water-starwort,9/15/2019,F,5:17 PM,8:11 PM,Stang,Spring
+5d112cd4-e3cb-11e9-8fd1-932ed37373ed,24072e84-e3cb-11e9-a477-532258583846,041C0,Forchhammeria,9/17/2019,S,6:36 PM,8:00 PM,Harper,Fall
+5d1153da-e3cb-11e9-8fd2-571e393a0849,24075594-e3cb-11e9-a478-c315d9a694fc,06BD0,Louisiana Parmotrema Lichen,9/27/2019,RS,11:20 AM,8:00 PM,Glendale,Fall
+5d117ae0-e3cb-11e9-8fd3-23daa358f555,24077c9a-e3cb-11e9-a479-6354ddd4d2d5,0JD63,Lesser Duckweed,9/28/2019,MRF,5:41 PM,8:00 PM,Fieldstone,Spring
+5d11a1f0-e3cb-11e9-8fd4-33461e272b31,2407a3aa-e3cb-11e9-a47a-2379191142cf,0CSX0,Jarrah,9/29/2019,MRF,1:21 PM,6:16 PM,Lighthouse Bay,Summer
