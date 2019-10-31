@@ -3,13 +3,14 @@
 <head>
 	<title>Schedule maker</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="/css/mystyles.css"/>
+	<link rel="stylesheet" href="./static/css/mystyle.css"/>
 </head>
+
 <body class="bg-light">
 	<div class="container bg-light text-info">
-	<div class="container"> 
-		<h2>Available</h2>
-		<table id="dtVerticalScrollExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+	<h2>Available</h2>
+	<div class="container">
+		<table id="available" class="available table table-striped table-bordered table-sm" cellspacing="0" width="100%">
 		  <thead class="text-info">
 		    <tr>
 		      <th class="th-sm">Name
@@ -21,6 +22,36 @@
 		    </tr>
 		  </thead>
 		  <tbody>
+		   <!--  <tr>
+		      <td></td>
+		      <td></td>
+		      <td></td>
+		    </tr> -->
+		   <!--  <tr>
+		      <td>Tiger Nixon</td>
+		      <td>System Architect</td>
+		      <td>Edinburgh</td>
+		    </tr>
+		    <tr>
+		      <td>Tiger Nixon</td>
+		      <td>System Architect</td>
+		      <td>Edinburgh</td>
+		    </tr>
+		    <tr>
+		      <td>Tiger Nixon</td>
+		      <td>System Architect</td>
+		      <td>Edinburgh</td>
+		    </tr>
+		    <tr>
+		      <td>Tiger Nixon</td>
+		      <td>System Architect</td>
+		      <td>Edinburgh</td>
+		    </tr>
+		    <tr>
+		      <td>Tiger Nixon</td>
+		      <td>System Architect</td>
+		      <td>Edinburgh</td>
+		    </tr>
 		    <tr>
 		      <td>Tiger Nixon</td>
 		      <td>System Architect</td>
@@ -50,28 +81,13 @@
 		      <td>Cedric Kelly</td>
 		      <td>Senior Javascript Developer</td>
 		      <td>Edinburgh</td>
-		    </tr>
-		    <tr>
-		      <td>Cedric Kelly</td>
-		      <td>Senior Javascript Developer</td>
-		      <td>Edinburgh</td>
-		    </tr>
-		    <tr>
-		      <td>Cedric Kelly</td>
-		      <td>Senior Javascript Developer</td>
-		      <td>Edinburgh</td>
-		    </tr>
-		    <tr>
-		      <td>Cedric Kelly</td>
-		      <td>Senior Javascript Developer</td>
-		      <td>Edinburgh</td>
-		    </tr>
+		    </tr> -->
 		  </tbody>
 		</table>
 	</div>
+	<h2>Not Available</h2>
 	<div class="container"> 
-		<h2>Not Available</h2>
-			<table id="dtVerticalScrollExample" class="table table-striped table-bordered table-sm" cellspacing="0"
+			<table class="not-available table table-striped table-bordered table-sm" cellspacing="0"
   width="100%">
 		  <thead class="text-info">
 		    <tr>
@@ -107,9 +123,9 @@
 		  </tbody>
 		</table>
 	</div>
+	<h2>Taken</h2>
 	<div class="container"> 
-		<h2>Taken</h2>
-			<table id="dtVerticalScrollExample" class="table table-striped table-bordered table-sm" cellspacing="0"
+			<table class="not-available table table-striped table-bordered table-sm" cellspacing="0"
   width="100%">
 		  <thead class="text-info">
 		    <tr>
@@ -123,8 +139,8 @@
 		  </thead>
 		  <tbody>
 		    <tr>
-		      <td>Tiger Nixon</td>
-		      <td>System Architect</td>
+		      <td></td>
+		      <td></td>
 		      <td>Edinburgh</td>
 		    </tr>
 		    <tr>
@@ -138,29 +154,42 @@
 		      <td>San Francisco</td>
 		    </tr>
 		    <tr>
-		      <td>Cedric Kelly</td>
+		      <td>Cedric</td>
 		      <td>Senior Javascript Developer</td>
 		      <td>Edinburgh</td>
 		    </tr>
 		  </tbody>
 		</table>
 	</div>
-	<div class="container text-center"> 
-		<button class="btn btn-primary">SUBMIT</button>
 	</div>
-	</div>
-</body>
-<script type="text/javascript">
-	$(document).ready(function () {
-	$('#dtVerticalScrollExample').DataTable({
-	"scrollY": "200px",
-	"scrollCollapse": true,
-	});
-	$('.dataTables_length').addClass('bs-select');
-});
-</script>
-<script type="text/javascript" src="/src/object.json"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	function loadJSON(callback) {   
+
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'obj.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+
+    function init() {
+	 loadJSON(function(response) {
+	  // Parse JSON string into object
+	    var actual_JSON = JSON.parse(response);
+	    console.log(actual_JSON);
+	    var 
+	 });
+	}
+ }
+</script>
+</body>
+
 </html>
