@@ -1,5 +1,5 @@
 {
-	"Available" :[
+	"available" :[
 
 	{
 		"Name": "Physcis I",
@@ -25,7 +25,7 @@
 		"CRN": "24456"	
 	}],
 
-	"Not Available": [
+	"not-available": [
 	{
 		"Name": "Art",
 		"ID": "5678901",
@@ -47,7 +47,7 @@
 		"ID": "3456901",
 		"CRN": "21032"
 	}],
-	"Taken": [
+	"taken": [
 	{
 		"Name": "Texas Government",
 		"ID": "3457893",
@@ -65,4 +65,4 @@
 		"CRN": "21122"
 	}]
 
-} // end JSON Object
+}
