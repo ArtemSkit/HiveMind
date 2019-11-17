@@ -5,17 +5,16 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
-
-# DATABASE_URI = 'postgres+psycopg2://postgres:admin@localhost:5432/dbs_poroject'
-# engine = create_engine(DATABASE_URI)
-# Session = sessionmaker(bind=engine)
-# s = Session()
 metadata = Base.metadata
 
 
 class Teacher(Base):
     __tablename__ = 'teacher'
-    TeacherId = Column('teacherid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    TeacherId = Column('teacherid',
+                       UUID(as_uuid=True),
+                       unique=True,
+                       nullable=False,
+                       primary_key=True,
                        default=uuid.uuid4())
     TeacherFName = Column('teacherfname', String(25), nullable=False)
     TeacherLName = Column('teacherlname', String(25), nullable=False)
@@ -48,7 +47,11 @@ class Teacher(Base):
 
 class DegreePlan(Base):
     __tablename__ = 'degreeplan'
-    DegreePlanID = Column('degreeplanid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    DegreePlanID = Column('degreeplanid',
+                          UUID(as_uuid=True),
+                          unique=True,
+                          nullable=False,
+                          primary_key=True,
                           default=uuid.uuid4())
     DegreeName = Column('degreename', String(50), nullable=False)
     Level = Column('level', CHAR, nullable=False)
@@ -67,7 +70,11 @@ class DegreePlan(Base):
 
 class Course(Base):
     __tablename__ = 'course'
-    CourseId = Column('courseid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    CourseId = Column('courseid',
+                      UUID(as_uuid=True),
+                      unique=True,
+                      nullable=False,
+                      primary_key=True,
                       default=uuid.uuid4())
     CourseName = Column('coursename', String(50), nullable=False)
     Credits = Column('credits', SmallInteger, nullable=False)
@@ -88,10 +95,20 @@ class Course(Base):
 
 class Classes(Base):
     __tablename__ = 'classes'
-    ClassId = Column('classid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    ClassId = Column('classid',
+                     UUID(as_uuid=True),
+                     unique=True,
+                     nullable=False,
+                     primary_key=True,
                      default=uuid.uuid4())
-    CourseId = Column('courseid', UUID(as_uuid=True), ForeignKey(u'course.courseid'), nullable=False)
-    TeacherId = Column('teacherid', UUID(as_uuid=True), ForeignKey(u'teacher.teacherid'), nullable=False)
+    CourseId = Column('courseid',
+                      UUID(as_uuid=True),
+                      ForeignKey(u'course.courseid'),
+                      nullable=False)
+    TeacherId = Column('teacherid',
+                       UUID(as_uuid=True),
+                       ForeignKey(u'teacher.teacherid'),
+                       nullable=False)
     CRN = Column('crn', String(5), nullable=False)
     Campus = Column('campus', String(50), nullable=False)
     StartDate = Column('startdate', Date, nullable=False)
@@ -123,11 +140,18 @@ class Classes(Base):
 
 class Student(Base):
     __tablename__ = 'student'
-    StudentId = Column('studentid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    StudentId = Column('studentid',
+                       UUID(as_uuid=True),
+                       unique=True,
+                       nullable=False,
+                       primary_key=True,
                        default=uuid.uuid4())
     StudentFName = Column('studentfname', String(25), nullable=False)
     StudentLName = Column('studentlname', String(25), nullable=False)
-    DegreePlanID = Column('degreeplanid', UUID(as_uuid=True), ForeignKey(u'degreeplan.degreeplanid'), nullable=False)
+    DegreePlanID = Column('degreeplanid',
+                          UUID(as_uuid=True),
+                          ForeignKey(u'degreeplan.degreeplanid'),
+                          nullable=False)
     Email = Column('email', String(50), nullable=False)
     DOB = Column('dob', Date, nullable=False)
     StudentAddress = Column('studentaddress', String(50), nullable=False)
@@ -156,27 +180,41 @@ class Student(Base):
 
 class DegreeCourses(Base):
     __tablename__ = 'degreecourses'
-    DegreePlanID = Column('degreeplanid', UUID(as_uuid=True), ForeignKey(u'degreeplan.degreeplanid'), nullable=False,
+    DegreePlanID = Column('degreeplanid',
+                          UUID(as_uuid=True),
+                          ForeignKey(u'degreeplan.degreeplanid'),
+                          nullable=False,
                           primary_key=True)
-    CourseId = Column('courseid', UUID(as_uuid=True), ForeignKey(u'course.courseid'), nullable=False, primary_key=True)
+    CourseId = Column('courseid',
+                      UUID(as_uuid=True),
+                      ForeignKey(u'course.courseid'),
+                      nullable=False,
+                      primary_key=True)
 
     @property
     def serialize(self):
         """
         :return: Serialized data from Student table.
         """
-        return {
-            'DegreePlanID': self.DegreePlanID,
-            'CourseId': self.CourseId
-        }
+        return {'DegreePlanID': self.DegreePlanID, 'CourseId': self.CourseId}
 
 
 class Registered(Base):
     __tablename__ = 'registered'
-    RegisteredId = Column('registeredid', UUID(as_uuid=True), unique=True, nullable=False, primary_key=True,
+    RegisteredId = Column('registeredid',
+                          UUID(as_uuid=True),
+                          unique=True,
+                          nullable=False,
+                          primary_key=True,
                           default=uuid.uuid4())
-    ClassId = Column('classid', UUID(as_uuid=True), ForeignKey(u'classes.classid'), nullable=False)
-    StudentId = Column('studentid', UUID(as_uuid=True), ForeignKey(u'student.studentid'), nullable=False)
+    ClassId = Column('classid',
+                     UUID(as_uuid=True),
+                     ForeignKey(u'classes.classid'),
+                     nullable=False)
+    StudentId = Column('studentid',
+                       UUID(as_uuid=True),
+                       ForeignKey(u'student.studentid'),
+                       nullable=False)
     Paid = Column('paid', Boolean, nullable=False)
     Complete = Column('complete', Boolean, nullable=False)
     LetterGrade = Column('lettergrade', String(1), nullable=True)
@@ -200,11 +238,19 @@ class Registered(Base):
 
 class Prerequisite(Base):
     __tablename__ = 'prerequisite'
-    PrerequisiteId = Column('prerequisiteid', UUID(as_uuid=True), nullable=False, primary_key=True,
+    PrerequisiteId = Column('prerequisiteid',
+                            UUID(as_uuid=True),
+                            nullable=False,
+                            primary_key=True,
                             default=uuid.uuid4())
-    CourseId_Prerequisite = Column('courseid_prerequisite', UUID(as_uuid=True), ForeignKey(u'course.courseid'),
+    CourseId_Prerequisite = Column('courseid_prerequisite',
+                                   UUID(as_uuid=True),
+                                   ForeignKey(u'course.courseid'),
                                    nullable=False)
-    CourseId = Column('courseid', UUID(as_uuid=True), ForeignKey(u'course.courseid'), nullable=False)
+    CourseId = Column('courseid',
+                      UUID(as_uuid=True),
+                      ForeignKey(u'course.courseid'),
+                      nullable=False)
 
     @property
     def serialize(self):
@@ -220,9 +266,19 @@ class Prerequisite(Base):
 
 class Proposed(Base):
     __tablename__ = 'proposed'
-    ProposedId = Column('proposedid', UUID(as_uuid=True), nullable=False, primary_key=True, default=uuid.uuid4())
-    StudentId = Column('studentid', UUID(as_uuid=True), ForeignKey(u'student.studentid'), nullable=False)
-    CourseId = Column('courseid', UUID(as_uuid=True), ForeignKey(u'course.courseid'), nullable=False)
+    ProposedId = Column('proposedid',
+                        UUID(as_uuid=True),
+                        nullable=False,
+                        primary_key=True,
+                        default=uuid.uuid4())
+    StudentId = Column('studentid',
+                       UUID(as_uuid=True),
+                       ForeignKey(u'student.studentid'),
+                       nullable=False)
+    CourseId = Column('courseid',
+                      UUID(as_uuid=True),
+                      ForeignKey(u'course.courseid'),
+                      nullable=False)
     StartTime = Column('starttime', Time, nullable=False)
     EndTime = Column('endtime', Time, nullable=False)
     ProposedDays = Column('proposeddays', String(7), nullable=False)
