@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Schedule maker</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -30,11 +33,11 @@
 					<tr>
 						<th class="th-sm">Name
 						</th>
-						<th class="th-sm">ID
+						<th class="th-sm">Course Level
 						</th>
-						<th class="th-sm">CRN
+						<th class="th-sm">Credits
 						</th>
-						<th style="width: 1em;">
+						<th class="table-fix" style="width: 1em;">
 						</th>
 					</tr>
 				</thead>
@@ -51,11 +54,11 @@
 					<tr>
 						<th class="th-sm">Name
 						</th>
-						<th class="th-sm">ID
+						<th class="th-sm">Course Level
 						</th>
-						<th class="th-sm">CRN
+						<th class="th-sm">Credits
 						</th>
-						<th style="width: 1em;">
+						<th class="table-fix" style="width: 1em;">
 						</th>
 					</tr>
 				</thead>
@@ -63,18 +66,19 @@
 				</tbody>
 			</table>
 		</div>
-		<h2>Taken</h2>
+		<h2>Completed</h2>
 		<div class="container">
-			<table id="taken" class="not-available table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+			<table id="completed" class="not-available table table-striped table-bordered table-sm" cellspacing="0"
+				width="100%">
 				<thead class="text-info">
 					<tr>
 						<th class="th-sm">Name
 						</th>
-						<th class="th-sm">ID
+						<th class="th-sm">Course Level
 						</th>
-						<th class="th-sm">CRN
+						<th class="th-sm">Credits
 						</th>
-						<th style="width: 1em;">
+						<th class="table-fix" style="width: 1em;">
 						</th>
 					</tr>
 				</thead>
@@ -167,7 +171,7 @@
 				title.innerText = name;
 				current_class.id = id;
 			}
-			$.getJSON("/static/obj.json", function (data) {
+			$.post("/student", { studentId: "b388e54c-e3e0-11e9-9d67-df57c5d8096b" }).done(function (data) {
 				console.log(data)
 				$.each(data, function (key, value) {
 					let fragment = new DocumentFragment()
@@ -177,18 +181,26 @@
 							tr.setAttribute("data-toggle", "modal");
 							tr.setAttribute("data-target", "#exampleModalLong");
 						}
-						tr.setAttribute("data-id", row['ID']);
-						tr.setAttribute("data-name", row['Name']);
-						console.log(row['ID'])
+						tr.setAttribute("data-id", row['CourseId']);
+						tr.setAttribute("data-name", row['CourseName']);
+						console.log(row['CourseId'])
 						tr.addEventListener('click', showPicker)
-						for (cell in row) {
-							let td = document.createElement("TD");
-							td.append(document.createTextNode(row[cell]));
-							tr.append(td);
-						}
+						let td = document.createElement("TD");
+						td.append(document.createTextNode(row['CourseName']));
+						tr.append(td);
+						fragment.append(tr);
+						td = document.createElement("TD");
+						td.append(document.createTextNode(row['CourseLevel']));
+						tr.append(td);
+						fragment.append(tr);
+						td = document.createElement("TD");
+						td.append(document.createTextNode(row['Credits']));
+						tr.append(td);
 						fragment.append(tr);
 					});
 					$('#' + key + ' tbody').append(fragment);
+					if (document.getElementsByTagName('th')[0].offsetWidth != document.getElementsByTagName('td')[0].offsetWidth) $('th.table-fix').remove();
+
 				});
 			}); /* end .getJSON */
 

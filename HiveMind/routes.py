@@ -58,6 +58,67 @@ def get_students():
         return make_response(jsonify(response), 405)
 
 
+@app.route('/student', methods=['GET', 'POST'])
+def get_student():
+    """
+
+    :return: JSON result of querying for all student's classes.
+    """
+    if request.method == 'POST':  #this block is only entered when the form is submitted
+        print(request.form.get('studentId'))
+
+        try:
+            # students = ses.query(mod.Student).all()
+            # mod.Student.StudentId == request.form.get('studentId'))
+            degree_courses = ses.query(
+                mod.Student, mod.DegreeCourses, mod.Course).join(
+                    mod.DegreeCourses,
+                    mod.DegreeCourses.DegreePlanID == mod.Student.DegreePlanID
+                ).join(
+                    mod.Course,
+                    mod.DegreeCourses.CourseId == mod.Course.CourseId).filter(
+                        mod.Student.StudentId == request.form.get(
+                            'studentId')).all()
+            courses = {'available': [], 'not-available': [], 'completed': []}
+            for s, d, c in degree_courses:
+                courses['not-available'].append(c)
+            reg_courses = ses.query(
+                mod.Registered, mod.Classes, mod.Course).join(
+                    mod.Classes,
+                    mod.Classes.ClassId == mod.Registered.ClassId).join(
+                        mod.Course,
+                        mod.Classes.CourseId == mod.Course.CourseId).filter(
+                            mod.Registered.StudentId == request.form.get(
+                                'studentId')).all()
+            for s, d, c in reg_courses:
+                print(s.Complete)
+                if s.Complete:
+                    courses['completed'].append(c)
+            for course in courses['completed']:
+                courses['not-available'].remove(course)
+            for course in courses['not-available']:
+                prereq_courses = ses.query(mod.Prerequisite).filter(
+                    mod.Prerequisite.CourseId == course.CourseId).all()
+                prereq_satisfied = 0
+                for prereq in prereq_courses:
+                    for completed_course in courses['completed']:
+                        prereq_satisfied += 1
+                        if prereq.CourseId_Prerequisite == completed_course.CourseId:
+                            prereq_satisfied -= 1
+                if prereq_satisfied == 0:
+                    courses['available'].append(course)
+            for course in courses['available']:
+                courses['not-available'].remove(course)
+            for key, val in courses.items():
+                courses[key] = [b.serialize for b in courses[key]]
+            response = jsonify(courses)
+            return make_response(response, 201)
+        except (SQLAlchemyError, DBAPIError) as e:
+            print(e)
+            response = {'status': "Failed", 'reason': e}
+            return make_response(jsonify(response), 405)
+
+
 @app.route('/degreeplans', methods=['GET'])
 @app.route('/degreeplans/', methods=['GET'])
 def get_degreeplans():

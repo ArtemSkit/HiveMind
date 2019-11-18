@@ -19,10 +19,11 @@ body {
 	padding-top: 1em;
 }
 
-tbody {
+tbody,
+thead {
 	display: block;
 	max-height: 9em;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 thead,
