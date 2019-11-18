@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Schedule maker</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="./../static/css/mystyle.css" />
+</head>
+
+<body class="bg-light">
+	<div class="container bg-light text-info">
+		<h2>Proposals</h2>
+		<div class="container">
+			<table id="courses" class="available table table-striped table-bordered table-sm" cellspacing="0" width="100%"
+				height="100%">
+
+				<thead class="text-info">
+					<tr>
+						<th class="th-sm">Name
+						</th>
+						<th class="th-sm">Course Level
+						</th>
+						<th class="th-sm">Credits
+						</th>
+						<th class="table-fix" style="width: 1em;">
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div>
+
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<table id="proposed-times" class="available table table-striped table-bordered table-sm" cellspacing="0"
+							width="100%" height="100%">
+
+							<thead class="text-info">
+								<tr>
+									<th class="th-sm">Proposed Days
+									</th>
+									<th class="th-sm">Start Time
+									</th>
+									<th class="th-sm">End Time
+									</th>
+									<th class="table-fix" style="width: 1em;">
+									</th>
+								</tr>
+							</thead>
+							<tbody style="max-height: 32.5em;">
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<script>
+				function showProposals(event) {
+					event.preventDefault();
+					let title = $('h5.modal-title')[0]
+					let id = event.target.parentNode.getAttribute("data-id");
+					let name = event.target.parentNode.getAttribute("data-name");
+					title.innerText = name;
+					let fragment = new DocumentFragment()
+					$('#proposed-times tbody').empty()
+					for (let i = 0; i < document.proposals.length; i++) {
+						if (document.proposals[i].CourseId == id) {
+							let tr = document.createElement("TR");
+							document.proposals[i]
+							let td = document.createElement("TD");
+							td.append(document.createTextNode(document.proposals[i]['ProposedDays']));
+							tr.append(td);
+							td = document.createElement("TD");
+							td.append(document.createTextNode(document.proposals[i]['StartTime']));
+							tr.append(td);
+							td = document.createElement("TD");
+							td.append(document.createTextNode(document.proposals[i]['EndTime']));
+							tr.append(td);
+							fragment.append(tr);
+						}
+					}
+					$('#proposed-times tbody').append(fragment);
+				}
+				$(document).ready(function () {
+					$.post("/porposals_with_names").done(function (data) {
+						document.proposals = data;
+						console.log(data)
+						let list_unique = []
+						for (let i = 0; i < data.length; i++) {
+							if (list_unique.some((e) => e.CourseId == data[i].CourseId)) continue;
+							else {
+								list_unique.push(data[i])
+							}
+						}
+						let fragment = new DocumentFragment()
+						for (let i = 0; i < list_unique.length; i++) {
+							let tr = document.createElement("TR");
+							tr.setAttribute("data-toggle", "modal");
+							tr.setAttribute("data-target", "#exampleModalLong");
+							tr.setAttribute("data-id", list_unique[i]['CourseId']);
+							tr.setAttribute("data-name", list_unique[i]['CourseName']);
+							tr.addEventListener('click', showProposals)
+							let td = document.createElement("TD");
+							td.append(document.createTextNode(list_unique[i]['CourseName']));
+							tr.append(td);
+							td = document.createElement("TD");
+							td.append(document.createTextNode(list_unique[i]['CourseLevel']));
+							tr.append(td);
+							td = document.createElement("TD");
+							td.append(document.createTextNode(list_unique[i]['Credits']));
+							tr.append(td);
+							fragment.append(tr);
+						}
+						$('#courses tbody').append(fragment);
+						if (document.getElementsByTagName('th')[0].offsetWidth != document.getElementsByTagName('td')[0].offsetWidth) $('th.table-fix').remove();
+					});
+				});
+			</script>
+</body>
+
+</html>

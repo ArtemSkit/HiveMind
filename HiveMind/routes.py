@@ -264,6 +264,46 @@ def get_proposed():
     return make_response(jsonify(response), 405)
 
 
+@app.route('/porposals_with_names', methods=['GET', 'POST'])
+def get_porposals_with_names():
+    """
+
+    :return: JSON result of querying for the all proposals with names.
+    """
+    if request.method == 'POST':
+        try:
+            proposals = ses.query(mod.Proposed, mod.Course).join(
+                mod.Course,
+                mod.Course.CourseId == mod.Proposed.CourseId).all()
+            prop_response = []
+            for p, c in proposals:
+                prop_response.append({
+                    'EndTime': str(p.EndTime),
+                    'StartTime': str(p.StartTime),
+                    'ProposedDays': p.ProposedDays,
+                    'CourseName': c.CourseName,
+                    'CourseLevel': c.CourseLevel,
+                    'Credits': c.Credits,
+                    'CourseId': c.CourseId
+                })
+            response = jsonify(prop_response)
+            return make_response(response, 201)
+        except (SQLAlchemyError, DBAPIError) as e:
+            print(e)
+            response = {'status': "Failed", 'reason': e}
+        return make_response(jsonify(response), 405)
+
+
+@app.route('/proposals', methods=['GET'])
+@app.route('/proposals/', methods=['GET'])
+def get_proposals():
+    """
+
+    :return: render proposals page.
+    """
+    return render_template('proposals.html')
+
+
 @app.route('/proposed/add', methods=['GET', 'POST'])
 def add_proposed():
     """
