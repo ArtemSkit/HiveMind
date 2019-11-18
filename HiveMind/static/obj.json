@@ -1,68 +1,88 @@
 {
-	"available" :[
-
-	{
-		"Name": "Physcis I",
-		"ID": "5457567",
-		"CRN": "24355"
-	},
-
-	{ 
-		"Name": "Physics II",
-		"ID": "5457568",
-		"CRN": "24356"
-	},
-
-	{	
-		"Name": "Calculus I",
-		"ID": "4567821",
-		"CRN": "24455"
-	},
-
-	{
-		"Name": "Calculus II",
-		"ID": "4567821",
-		"CRN": "24456"	
-	}],
-
+	"available": [
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physcis I",
+			"ID": "5457567",
+			"CRN": "24355"
+		},
+		{
+			"Name": "Physics II",
+			"ID": "5457568",
+			"CRN": "24356"
+		},
+		{
+			"Name": "Calculus I",
+			"ID": "4567821",
+			"CRN": "24455"
+		},
+		{
+			"Name": "Calculus II",
+			"ID": "4567821",
+			"CRN": "24456"
+		}
+	],
 	"not-available": [
-	{
-		"Name": "Art",
-		"ID": "5678901",
-		"CRN": "21000"
-	},
-	{
-
-		"Name": "World History",
-		"ID": "7891234",
-		"CRN": "21012"
-	},
-	{
-		"Name": "U.S. History",
-		"ID": "7893456",
-		"CRN": "21022"
-	},
-	{
-		"Name": "U.S. Government",
-		"ID": "3456901",
-		"CRN": "21032"
-	}],
+		{
+			"Name": "Art",
+			"ID": "5678901",
+			"CRN": "21000"
+		},
+		{
+			"Name": "World History",
+			"ID": "7891234",
+			"CRN": "21012"
+		},
+		{
+			"Name": "U.S. History",
+			"ID": "7893456",
+			"CRN": "21022"
+		},
+		{
+			"Name": "U.S. Government",
+			"ID": "3456901",
+			"CRN": "21032"
+		}
+	],
 	"taken": [
-	{
-		"Name": "Texas Government",
-		"ID": "3457893",
-		"CRN": "21042"
-	},
-	{
-
-		"Name": "English I",
-		"ID": "3489112",
-		"CRN": "21112"
-	},
-	{
-		"Name": "English II",
-		"ID": "3489122",
-		"CRN": "21122"
-	}]
-
+		{
+			"Name": "Texas Government",
+			"ID": "3457893",
+			"CRN": "21042"
+		},
+		{
+			"Name": "English I",
+			"ID": "3489112",
+			"CRN": "21112"
+		},
+		{
+			"Name": "English II",
+			"ID": "3489122",
+			"CRN": "21122"
+		}
+	]
 }
