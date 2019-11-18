@@ -72,3 +72,7 @@ table.not-available tr {
 .btn.dropdown-toggle:focus {
 	outline: none !important;
 }
+
+button:focus {
+	outline: 0;
+}

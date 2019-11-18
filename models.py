@@ -268,6 +268,7 @@ class Proposed(Base):
     __tablename__ = 'proposed'
     ProposedId = Column('proposedid',
                         UUID(as_uuid=True),
+                        unique=True,
                         nullable=False,
                         primary_key=True,
                         default=uuid.uuid4())

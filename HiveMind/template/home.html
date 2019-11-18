@@ -126,6 +126,22 @@
 			</div>
 		</div>
 	</div>
+	<div class="alert alert-success"
+		style="width: 17em; position:fixed; right: 2.5em; bottom: 2.5em; padding-right: 0rem; display: none">
+		<label for="alert-btn-success" style="display: block; user-select: none;">
+			<button id="alert-btn-success" type="button" class="close" style="margin-right: 1em;"
+				onclick="function alert_btn(){$('.alert-success').fadeOut( 'slow' )};alert_btn()">&times;</button>
+			<strong>Success!</strong><br>Data submitted successfuly
+		</label>
+	</div>
+	<div class="alert alert-danger alert-fail"
+		style="width: 17em; position:fixed; right: 2.5em; bottom: 2.5em; padding-right: 0rem; display: none">
+		<label for="alert-btn-fail" style="display: block; user-select: none;">
+			<button id="alert-btn-fail" type="button" class="close" style="margin-right: 1em;"
+				onclick="function alert_btn(){$('.alert-fail').fadeOut( 'slow' )};alert_btn()">&times;</button>
+			<strong>Fail!</strong><br>Failed to submit data
+		</label>
+	</div>
 	<!-- <script src="script.js" type="text/javascript"></script> -->
 	<script>
 
@@ -151,17 +167,36 @@
 						.replace('Friday', 'F')
 						.replace('Saturday', 'S')
 						.replace(/,\s/g, '')
-						.replace('Nothing selected', '');
+						.replace('Nothing selected', 'MTWRFS');
 				}
 			}
 			$('.submit')[0].addEventListener('click', (e) => {
 				current_class.weekDay = $('.filter-option-inner-inner')[0].textContent;
 				let startT = $('#start-time').timepicker('value')
 				let endT = $('#end-time').timepicker('value')
-				current_class.startTime = startT == "" ? "" : startT + ":00";
-				current_class.endTime = endT == "" ? "" : endT + ":00";
+				current_class.startTime = startT == "" ? "00:00:00" : startT + ":00";
+				current_class.endTime = endT == "" ? "23:59:59" : endT + ":00";
 				console.dir(current_class)
-				alert(JSON.stringify(current_class))
+				$.post("/proposed/add", JSON.stringify({
+					"StudentId": "b388e54c-e3e0-11e9-9d67-df57c5d8096b",
+					"CourseId": current_class.id,
+					"StartTime": current_class.startTime,
+					"EndTime": current_class.endTime,
+					"ProposedDays": current_class.weekDay
+				}))
+					.done(function (e) {
+						console.log(e)
+						$('.alert-success').fadeIn('slow')
+						setTimeout(function () {
+							$('.alert-success').fadeOut('slow')
+						}, 2000)
+					})
+					.fail(function () {
+						$('.alert-fail').fadeIn('slow')
+						setTimeout(function () {
+							$('.alert-fail').fadeOut('slow')
+						}, 2000)
+					})
 			})
 			function showPicker(event) {
 				event.preventDefault();
@@ -200,9 +235,15 @@
 					});
 					$('#' + key + ' tbody').append(fragment);
 					if (document.getElementsByTagName('th')[0].offsetWidth != document.getElementsByTagName('td')[0].offsetWidth) $('th.table-fix').remove();
-
 				});
-			}); /* end .getJSON */
+			})
+				.fail(function () {
+					$('.alert-fail').fadeIn('slow')
+					setTimeout(function () {
+						$('.alert-fail').fadeOut('slow')
+					}, 2000)
+				}
+				); /* end .getJSON */
 
 
 

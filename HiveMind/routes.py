@@ -64,7 +64,7 @@ def get_student():
 
     :return: JSON result of querying for all student's classes.
     """
-    if request.method == 'POST':  #this block is only entered when the form is submitted
+    if request.method == 'POST':
         print(request.form.get('studentId'))
 
         try:
@@ -264,33 +264,35 @@ def get_proposed():
     return make_response(jsonify(response), 405)
 
 
-@app.route('/proposed/add', methods=['POST'])
+@app.route('/proposed/add', methods=['GET', 'POST'])
 def add_proposed():
     """
     :return: Success or failure of insert into the Proposed table.
     """
-    json_data = request.get_json(force=True)
-    if not json_data:
-        response = {'message': 'No input data provided'}
-        return make_response(jsonify(response), 400)
+    if request.method == 'POST':
+        print(request)
+        json_data = request.get_json(force=True)
+        if not json_data:
+            response = {'message': 'No input data provided'}
+            return make_response(jsonify(response), 400)
 
-    proposed = mod.Proposed(StudentId=json_data.get('StudentId'),
-                            CourseId=json_data.get('CourseId'),
-                            StartTime=json_data.get('StartTime'),
-                            EndTime=json_data.get('EndTime'),
-                            ProposedDays=json_data.get('ProposedDays'))
-    ses.add(proposed)
-    ses.flush()
+        proposed = mod.Proposed(StudentId=json_data.get('StudentId'),
+                                CourseId=json_data.get('CourseId'),
+                                StartTime=json_data.get('StartTime'),
+                                EndTime=json_data.get('EndTime'),
+                                ProposedDays=json_data.get('ProposedDays'))
+        ses.add(proposed)
+        ses.flush()
 
-    try:
-        ses.commit()
-        response = {'status': "Success"}
-        return make_response(jsonify(response), 201)
-    except (SQLAlchemyError, DBAPIError) as e:
-        print(str(e))
-        ses.rollback()
-        response = {'status': "Failed", 'reason': e}
-        return make_response(jsonify(response), 405)
+        try:
+            ses.commit()
+            response = {'status': "Success"}
+            return make_response(jsonify(response), 201)
+        except (SQLAlchemyError, DBAPIError) as e:
+            print(str(e))
+            ses.rollback()
+            response = {'status': "Failed", 'reason': e}
+            return make_response(jsonify(response), 405)
 
 
 if __name__ == '__main__':
