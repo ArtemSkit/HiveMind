@@ -272,7 +272,3 @@ cd HiveMind
 ```Linux
 python run.py
 ```
-
-
-
-
