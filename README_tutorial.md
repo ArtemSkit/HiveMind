@@ -262,7 +262,16 @@ def add_degreeplan():
 
 ## Crete HTML page that requests data
 ![Page](./Front_end.jpg)
-
+## Run
+1. Clone the project
+2. Go to the root directory
+```Linux
+cd HiveMind
+```
+3. run flask server
+```Linux
+python run.py
+```
 
 
 
