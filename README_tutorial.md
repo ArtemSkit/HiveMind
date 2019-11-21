@@ -61,10 +61,13 @@ class Course(Base):
 ## Local host configuration
 
 > After installing Python Flask
-1. Making folder
+1. Making path <br />
+![Screen Shot 2019-11-21 at 09 25 41](https://user-images.githubusercontent.com/22626710/69351413-e7864c80-0c40-11ea-8b16-6d4e98bec575.png)
+
 ```Linux
 mkdir <foldername>
-cd <foldername>
+mkdir template
+mkdir static
 touch flaskApp.py
 ```
 2. Within same directory
@@ -117,7 +120,7 @@ def home():
 
 @app.route("/teachers")
 @app.route("/teachers/")
-def teachers():
+def get_teachers():
     """
 
     :return: JSON result of querying for the all teachers.
@@ -130,19 +133,131 @@ def teachers():
         print(e)
         response = {'status': "Failed", 'reason': e}
         return make_response(jsonify(response), 405)
-
-@app.route("/student")
-@app.route("/student/")
-def get_student():
-    return "student"
-
-@app.route("/students")
-@app.route("/students/")
+```
+- Returning JSON result of querying for all students.
+```py
+@app.route('/students', methods=['GET'])
+@app.route('/students/', methods=['GET'])
 def get_students():
-    return "students"
+    """
 
-if __name__ == "__main__":
-    app.run()
+    :return: JSON result of querying for the all students.
+    """
+    try:
+        students = ses.query(mod.Student).all()
+        response = jsonify(Data=[b.serialize for b in students])
+        return make_response(response, 201)
+    except (SQLAlchemyError, DBAPIError) as e:
+        print(e)
+        response = {'status': "Failed", 'reason': e}
+        return make_response(jsonify(response), 405)
+```
+- Student route to to query alll student's classes.
+```py
+@app.route('/student', methods=['GET', 'POST'])
+def get_student():
+    """
+
+    :return: JSON result of querying for all student's classes.
+    """
+    if request.method == 'POST':
+        print(request.form.get('studentId'))
+
+        try:
+            # students = ses.query(mod.Student).all()
+            # mod.Student.StudentId == request.form.get('studentId'))
+            degree_courses = ses.query(
+                mod.Student, mod.DegreeCourses, mod.Course).join(
+                    mod.DegreeCourses,
+                    mod.DegreeCourses.DegreePlanID == mod.Student.DegreePlanID
+                ).join(
+                    mod.Course,
+                    mod.DegreeCourses.CourseId == mod.Course.CourseId).filter(
+                        mod.Student.StudentId == request.form.get(
+                            'studentId')).all()
+            courses = {'available': [], 'not-available': [], 'completed': []}
+            for s, d, c in degree_courses:
+                courses['not-available'].append(c)
+            reg_courses = ses.query(
+                mod.Registered, mod.Classes, mod.Course).join(
+                    mod.Classes,
+                    mod.Classes.ClassId == mod.Registered.ClassId).join(
+                        mod.Course,
+                        mod.Classes.CourseId == mod.Course.CourseId).filter(
+                            mod.Registered.StudentId == request.form.get(
+                                'studentId')).all()
+            for s, d, c in reg_courses:
+                print(s.Complete)
+                if s.Complete:
+                    courses['completed'].append(c)
+            for course in courses['completed']:
+                courses['not-available'].remove(course)
+            for course in courses['not-available']:
+                prereq_courses = ses.query(mod.Prerequisite).filter(
+                    mod.Prerequisite.CourseId == course.CourseId).all()
+                prereq_satisfied = 0
+                for prereq in prereq_courses:
+                    for completed_course in courses['completed']:
+                        prereq_satisfied += 1
+                        if prereq.CourseId_Prerequisite == completed_course.CourseId:
+                            prereq_satisfied -= 1
+                if prereq_satisfied == 0:
+                    courses['available'].append(course)
+            for course in courses['available']:
+                courses['not-available'].remove(course)
+            for key, val in courses.items():
+                courses[key] = [b.serialize for b in courses[key]]
+            response = jsonify(courses)
+            return make_response(response, 201)
+        except (SQLAlchemyError, DBAPIError) as e:
+            print(e)
+            response = {'status': "Failed", 'reason': e}
+            return make_response(jsonify(response), 405)
+```
+- Query all degree plans 
+```py
+@app.route('/degreeplans', methods=['GET'])
+@app.route('/degreeplans/', methods=['GET'])
+def get_degreeplans():
+    """
+
+    :return: JSON result of querying for the all degree plans.
+    """
+    try:
+        degreeplans = ses.query(mod.DegreePlan).all()
+        response = jsonify(Data=[b.serialize for b in degreeplans])
+        return make_response(response, 201)
+    except (SQLAlchemyError, DBAPIError) as e:
+        print(e)
+        response = {'status': "Failed", 'reason': e}
+        return make_response(jsonify(response), 405)
+```
+- Success or failure of insert into degreee plans table.
+```py
+@app.route('/degreeplans/add', methods=['POST'])
+def add_degreeplan():
+    """
+    :return: Success or failure of insert into the DegreePlans table.
+    """
+    json_data = request.get_json(force=True)
+    if not json_data:
+        response = {'message': 'No input data provided'}
+        return make_response(jsonify(response), 400)
+
+    degreeplan = mod.DegreePlan(DegreeName=json_data.get('DegreeName'),
+                                Level=json_data.get('Level'))
+    ses.add(degreeplan)
+    ses.flush()
+
+    try:
+        ses.commit()
+        response = {'status': "Success"}
+        return make_response(jsonify(response), 201)
+    except (SQLAlchemyError, DBAPIError) as e:
+        print(str(e))
+        ses.rollback()
+        response = {'status': "Failed", 'reason': e}
+        return make_response(jsonify(response), 405)
 ```
 
 ## Crete HTML page that requests data
